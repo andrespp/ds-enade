@@ -1,0 +1,7 @@
+pandas
+numpy
+snappy
+fastparquet
+matplotlib
+seaborn
+plotly
