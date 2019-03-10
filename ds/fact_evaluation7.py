@@ -10,6 +10,7 @@
         UFT
 """
 import pandas as pd
+from ds.dtypes import ENADE_DTYPE
 
 def extract(data_src, gzip=False):
     """Extract data from source
@@ -32,7 +33,8 @@ def extract(data_src, gzip=False):
         compress = 'gzip'
     compress = 'infer'
 
-    return pd.read_csv(data_src, compression=compress, sep=';')
+    return pd.read_csv(data_src, compression=compress,# dtype=ENADE_DTYPE,
+                       sep=';', decimal=',')
 
 def transform(data, dim_groups):
     """Transform data
@@ -96,11 +98,11 @@ def transform(data, dim_groups):
                  'NT_FG',         # Nota bruta da formação geral
                  'NT_CE',         # Nota bruta do conhecimento específico
                 ]]
-    data.reset_index(inplace=True)
+    data.reset_index(drop=True, inplace=True)
 
     return data
 
-def load(data, fname):
+def load(data, fname, ftype='csv'):
     """Load data into the Parquet File
 
     Parameters
@@ -110,8 +112,16 @@ def load(data, fname):
 
         fname : string
             File name for output file
+
+        ftype : string ,default 'csv'
+            Type of the output file
     """
-    return data.to_parquet(fname, compression='gzip')
+    if ftype=='csv':
+        return data.to_csv(fname, sep = ';',decimal=',',index=False)
+    elif ftype == 'parquet':
+        return data.to_parquet(fname, compression='gzip')
+    else:
+        return 'Not Implemented'
 
 def get_nm_ies(co_ies):
     """Returns "As IES de interesse" description

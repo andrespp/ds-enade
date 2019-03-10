@@ -44,8 +44,8 @@ if __name__ == '__main__':
         ds = ds.append(df, ignore_index=True)
 
     # Load Dataset
-    enade7.load(ds, config['DS']['DATASET_FILE'])
-    print('{}. Dataset written!'.format(config['DS']['DATASET_FILE']))
-
-#print(ds)
-#print(ds.shape)
+    enade7.load(ds,
+                fname=config['DS']['DATASET_FILE'],
+                ftype=config['DS']['DATASET_FTYPE'])
+    print('{}. Dataset written! {}'.format(config['DS']['DATASET_FILE'],
+                                           ds.shape))
