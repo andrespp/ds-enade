@@ -12,7 +12,7 @@
 import pandas as pd
 from ds.dtypes import ENADE_DTYPE
 
-def extract(data_src, gzip=False):
+def extract(data_src, gzip=False, decimal='.'):
     """Extract data from source
 
     Parameters
@@ -22,6 +22,9 @@ def extract(data_src, gzip=False):
 
         gzip : boolean, default False
             Whether CSV file is compressed or not.
+
+        decimal : str, default '.'
+            Character to recognize as decimal point.
 
     Returns
     -------
@@ -33,8 +36,12 @@ def extract(data_src, gzip=False):
         compress = 'gzip'
     compress = 'infer'
 
-    return pd.read_csv(data_src, compression=compress,# dtype=ENADE_DTYPE,
-                       sep=';', decimal=',')
+    df = pd.read_csv(data_src, compression=compress,# dtype=ENADE_DTYPE,
+                     sep=';', decimal=decimal)
+    df['NT_GER'] = df['NT_GER'].apply(pd.to_numeric, errors='coerce')
+    df['NT_FG'] = df['NT_FG'].apply(pd.to_numeric, errors='coerce')
+    df['NT_CE'] = df['NT_CE'].apply(pd.to_numeric, errors='coerce')
+    return df
 
 def transform(data, dim_groups):
     """Transform data
@@ -116,8 +123,8 @@ def load(data, fname, ftype='csv'):
         ftype : string ,default 'csv'
             Type of the output file
     """
-    if ftype=='csv':
-        return data.to_csv(fname, sep = ';',decimal=',',index=False)
+    if ftype == 'csv':
+        return data.to_csv(fname, sep=';', decimal=',', index=False)
     elif ftype == 'parquet':
         return data.to_parquet(fname, compression='gzip')
     else:

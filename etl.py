@@ -32,7 +32,10 @@ if __name__ == '__main__':
 
         # Extract
         print('{}. EXTRACT. Reading file. '.format(data_src), end='')
-        df = enade7.extract(data_src)
+        if data_src.split('/')[-1] in ['ENADE_2016.csv.gz', 'ENADE_2017.csv.gz']:
+            df = enade7.extract(data_src, decimal=',')
+        else:
+            df = enade7.extract(data_src, decimal='.')
         print('Done! {}'.format(df.shape))
 
         # Transform
