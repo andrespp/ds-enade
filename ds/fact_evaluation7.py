@@ -78,7 +78,9 @@ def transform(data, dim_groups):
     data['NM_MODALIDADE'] = data['CO_MODALIDADE'].apply(get_nm_modalidade)
     data['NM_UF_CURSO'] = data['CO_UF_CURSO'].apply(get_nm_uf_curso)
     data['NM_SEXO'] = data['TP_SEXO'].apply(get_nm_sexo)
-    #data['NM_INSCRICAO'] = data['TP_INSCRICAO'].apply(get_nm_inscricao)
+    data['NM_INSCRICAO'] = data.apply(lambda x:
+                                      get_nm_inscricao(x['TP_INSCRICAO'],
+                                                       x['NU_ANO']), axis=1)
     data['NM_PRES'] = data['TP_PRES'].apply(get_nm_pres)
 
     #############################
@@ -98,7 +100,7 @@ def transform(data, dim_groups):
                  'TP_SEXO',       # Sexo (M/F/N)
                  'NM_SEXO',       # Nomes dos sexos
                  'TP_INSCRICAO',  # Tipo de inscrição (0=Concluinte, 1=Ingressante)
-#                 'NM_INSCRICAO',  # Nome dos tipos de inscrições
+                 'NM_INSCRICAO',  # Nome dos tipos de inscrições
                  'TP_PRES',       # Tipo de presença ENADE
                  'NM_PRES',       # Nome do tipo de presença no ENADE
                  'NT_GER',        # Nota bruta da prova
@@ -188,13 +190,19 @@ def get_nm_sexo(tp_sexo):
     }
     return switcher.get(tp_sexo, 'Outro')
 
-def get_nm_inscricao(tp_inscricao):
+def get_nm_inscricao(tp_inscricao, ds_year):
     """Returns "Tipo de inscrição do participante" description
     """
-    switcher = {
-        0: 'Concluinte',
-        1: 'Ingressante',
-    }
+    if ds_year == 2017:
+        switcher = {
+            1: 'Concluinte',
+            0: 'Ingressante',
+        }
+    else:
+        switcher = {
+            0: 'Concluinte',
+            1: 'Ingressante',
+        }
     return switcher.get(tp_inscricao, 'err')
 
 def get_nm_pres(tp_pres):
