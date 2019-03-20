@@ -36,14 +36,14 @@ def extract(data_src, gzip=False, decimal='.'):
         compress = 'gzip'
     compress = 'infer'
 
-    df = pd.read_csv(data_src, compression=compress,# dtype=ENADE_DTYPE,
+    df = pd.read_csv(data_src, compression=compress, # dtype='unicode',# dtype=ENADE_DTYPE,  
                      sep=';', decimal=decimal)
     df['NT_GER'] = df['NT_GER'].apply(pd.to_numeric, errors='coerce')
     df['NT_FG'] = df['NT_FG'].apply(pd.to_numeric, errors='coerce')
     df['NT_CE'] = df['NT_CE'].apply(pd.to_numeric, errors='coerce')
     return df
 
-def transform(data, dim_groups):
+def transform(data, dim_groups, dim_areas):
     """Transform data
 
     Parameters
@@ -53,6 +53,9 @@ def transform(data, dim_groups):
 
         dim_groups | Pandas DataFrame
            dim_groups DataFrame
+           
+        dim_area | Pandas DataFrame
+            dim_area DataFrame
 
     Returns
     -------
@@ -82,15 +85,22 @@ def transform(data, dim_groups):
                                       get_nm_inscricao(x['TP_INSCRICAO'],
                                                        x['NU_ANO']), axis=1)
     data['NM_PRES'] = data['TP_PRES'].apply(get_nm_pres)
+    
+    # Join with "co_area.csv" to know which area the course belongs to
+    data['CO_CURSO'] = data['CO_CURSO'].astype(int)
+    dim_areas['CO_CURSO'] = dim_areas['CO_CURSO'].astype(int)
+    data = data.join(dim_areas.set_index('CO_CURSO'), on='CO_CURSO')
 
     #############################
     ## Select and reorder columns
     data = data[['NU_ANO',        # Ano da avaliação
                  'CO_IES',        # Código da IES (e-Mec)
                  'NM_IES',        # Nome das IES filtradas
-                 'CO_GRUPO',      # Código da área de enquadramento do curso
+                 'CO_GRUPO',      # Código do grupo de enquadramento do curso
                  'NM_GRUPO',      # Nome da área de enquadramento do curso
                  'CO_CURSO',      # Código do curso no Enade
+                 'CO_AREA',       # Código da área a qual pertence o curso
+                 'NM_AREA',       # Nome das áreas
                  'CO_MODALIDADE', # Código da modalidade de Ensino
                  'NM_MODALIDADE', # Nomes das modalidades
                  'CO_MUNIC_CURSO',# Cód do município de funcionamento do curso
