@@ -24,7 +24,10 @@ if __name__ == '__main__':
     # dim_groups
     DF_GROUPS = dim_groups.extract(
         config['DS']['PATH'] + config['DS']['DIM_GROUP_FILE'])
-
+    
+    DF_AREA = dim_groups.extract(
+        config['DS']['PATH'] + config['DS']['DIM_AREA_FILE'])
+    
     # fact_evaluation7
     ds = pd.DataFrame()
     for src_file in config['DS']['FILES'].split(','):
@@ -37,10 +40,10 @@ if __name__ == '__main__':
         else:
             df = enade7.extract(data_src, decimal='.')
         print('Done! {}'.format(df.shape))
-
+        
         # Transform
         print('{}. TRANSFORM. Processing. '.format(data_src), end='')
-        df = enade7.transform(df, DF_GROUPS)
+        df = enade7.transform(df, DF_GROUPS, DF_AREA)
         print('Done! {}'.format(df.shape))
 
         # Append new df

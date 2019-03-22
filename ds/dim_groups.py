@@ -1,6 +1,6 @@
 """dim_groups.py
 
-    Área de enquadramento do curso no Enade
+    Grupo de enquadramento do curso no Enade
 
 """
 import pandas as pd
