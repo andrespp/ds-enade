@@ -40,7 +40,7 @@ if __name__ == '__main__':
         else:
             df = enade7.extract(data_src, decimal='.')
         print('Done! {}'.format(df.shape))
-
+        
         # Transform
         print('{}. TRANSFORM. Processing. '.format(data_src), end='')
         df = enade7.transform(df, DF_GROUPS, DF_AREA)

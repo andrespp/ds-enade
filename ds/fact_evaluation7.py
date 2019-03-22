@@ -36,8 +36,20 @@ def extract(data_src, gzip=False, decimal='.'):
         compress = 'gzip'
     compress = 'infer'
 
-    df = pd.read_csv(data_src, compression=compress, # dtype='unicode',# dtype=ENADE_DTYPE,  
+    df = pd.read_csv(data_src, compression=compress, #dtype='unicode'# dtype=ENADE_DTYPE,
                      sep=';', decimal=decimal)
+    
+    if df['NU_ANO'][0] == 2016:
+        # Corrige problema de 2016 com células contendo apenas espaços
+        df['NT_GER'] = df['NT_GER'].replace(r'\s+', 0, regex=True)
+        df['NT_FG'] = df['NT_FG'].replace(r'\s+', 0, regex=True)
+        df['NT_CE'] = df['NT_CE'].replace(r'\s+', 0, regex=True)
+
+        # Substitui "," por "."
+        df['NT_GER'] = df['NT_GER'].str.replace(',','.')
+        df['NT_FG'] = df['NT_FG'].str.replace(',','.')
+        df['NT_CE'] = df['NT_CE'].str.replace(',','.')
+    
     df['NT_GER'] = df['NT_GER'].apply(pd.to_numeric, errors='coerce')
     df['NT_FG'] = df['NT_FG'].apply(pd.to_numeric, errors='coerce')
     df['NT_CE'] = df['NT_CE'].apply(pd.to_numeric, errors='coerce')
@@ -65,12 +77,12 @@ def transform(data, dim_groups, dim_areas):
     #################
     ## Data Selection
 
-    # UFPA / UFOPA / UNIFESSPA / IFPA / UFRA / UNIFAP / UFT only
-    # 569  / 15059 / 18440     / 1813 / 590  / 830    / 3849
+    ## UFPA / UFOPA / UNIFESSPA / IFPA / UFRA / UNIFAP / UFT only
+    ## 569  / 15059 / 18440     / 1813 / 590  / 830    / 3849
     data = data[data['CO_IES'].isin([569, 15059, 18440, 1813, 590, 830, 3849])]
 
-    # Absence evaluation
-    data = data[data['TP_PRES'].isin([555])] # presente com resultado válido
+    ## Absence evaluation
+    data = data[data['TP_PRES'].isin([555])] ## presente com resultado válido
 
     ##############
     ## New columns
@@ -85,10 +97,12 @@ def transform(data, dim_groups, dim_areas):
                                       get_nm_inscricao(x['TP_INSCRICAO'],
                                                        x['NU_ANO']), axis=1)
     data['NM_PRES'] = data['TP_PRES'].apply(get_nm_pres)
+    ## data['NT_GER'] = data['NT_GERAL'].astype('float64')
+    ## data['NT_FG'] = data['NT_FG'].astype('float64')
+    ## data['NT_CE'] = data['NT_CE'].astype('float64')
     
-    # Join with "co_area.csv" to know which area the course belongs to
-    data['CO_CURSO'] = data['CO_CURSO'].astype(int)
-    dim_areas['CO_CURSO'] = dim_areas['CO_CURSO'].astype(int)
+    ## Join with "co_area.csv to know which area the course belongs to
+    data['CO_CURSO'] = data['CO_CURSO'].astype('int64')
     data = data.join(dim_areas.set_index('CO_CURSO'), on='CO_CURSO')
 
     #############################
