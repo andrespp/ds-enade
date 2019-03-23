@@ -35,10 +35,13 @@ def extract(data_src, gzip=False, decimal='.'):
     if gzip:
         compress = 'gzip'
     compress = 'infer'
+    cols = ['NU_ANO', 'CO_IES', 'CO_GRUPO', 'CO_CURSO', 'CO_MODALIDADE',
+            'CO_MUNIC_CURSO', 'CO_UF_CURSO', 'NU_IDADE', 'TP_SEXO',
+            'TP_INSCRICAO', 'TP_PRES', 'NT_GER', 'NT_FG', 'NT_CE',]
 
-    df = pd.read_csv(data_src, compression=compress, #dtype='unicode'# dtype=ENADE_DTYPE,
-                     sep=';', decimal=decimal)
-    
+    df = pd.read_csv(data_src, compression=compress, dtype=ENADE_DTYPE,
+                     sep=';', decimal=decimal, usecols=cols)
+
     if df['NU_ANO'][0] == 2016:
         # Corrige problema de 2016 com células contendo apenas espaços
         df['NT_GER'] = df['NT_GER'].replace(r'\s+', 0, regex=True)
@@ -46,10 +49,14 @@ def extract(data_src, gzip=False, decimal='.'):
         df['NT_CE'] = df['NT_CE'].replace(r'\s+', 0, regex=True)
 
         # Substitui "," por "."
-        df['NT_GER'] = df['NT_GER'].str.replace(',','.')
-        df['NT_FG'] = df['NT_FG'].str.replace(',','.')
-        df['NT_CE'] = df['NT_CE'].str.replace(',','.')
-    
+        df['NT_GER'] = df['NT_GER'].str.replace(',', '.')
+        df['NT_FG'] = df['NT_FG'].str.replace(',', '.')
+        df['NT_CE'] = df['NT_CE'].str.replace(',', '.')
+
+    df['CO_IES'] = df['CO_IES'].apply(aux_convert_dj1)
+    df['CO_CURSO'] = df['CO_CURSO'].apply(aux_convert_dj1)
+    df['CO_MUNIC_CURSO'] = df['CO_MUNIC_CURSO'].apply(aux_convert_dj1)
+
     df['NT_GER'] = df['NT_GER'].apply(pd.to_numeric, errors='coerce')
     df['NT_FG'] = df['NT_FG'].apply(pd.to_numeric, errors='coerce')
     df['NT_CE'] = df['NT_CE'].apply(pd.to_numeric, errors='coerce')
@@ -65,7 +72,7 @@ def transform(data, dim_groups, dim_areas):
 
         dim_groups | Pandas DataFrame
            dim_groups DataFrame
-           
+
         dim_area | Pandas DataFrame
             dim_area DataFrame
 
@@ -100,8 +107,10 @@ def transform(data, dim_groups, dim_areas):
     ## data['NT_GER'] = data['NT_GERAL'].astype('float64')
     ## data['NT_FG'] = data['NT_FG'].astype('float64')
     ## data['NT_CE'] = data['NT_CE'].astype('float64')
-    
+
     ## Join with "co_area.csv to know which area the course belongs to
+    data['CO_IES'] = data['CO_IES'].astype('int64')
+    data['CO_MUNIC_CURSO'] = data['CO_MUNIC_CURSO'].astype('int64')
     data['CO_CURSO'] = data['CO_CURSO'].astype('int64')
     data = data.join(dim_areas.set_index('CO_CURSO'), on='CO_CURSO')
 
@@ -149,6 +158,7 @@ def load(data, fname, ftype='csv'):
         ftype : string ,default 'csv'
             Type of the output file
     """
+    print(data.dtypes)
     if ftype == 'csv':
         return data.to_csv(fname, sep=';', decimal=',', index=False)
     elif ftype == 'parquet':
@@ -236,5 +246,15 @@ def get_nm_pres(tp_pres):
         222: 'Ausente',
         555: 'Presente',
         556: 'Presente-Invalido'
+
     }
     return switcher.get(tp_pres, 'err')
+
+def aux_convert_dj1(cod):
+    """Returns -1 if cod == 0
+
+        DJ1 (Identificação da IES retirada decorrente de decisão judicial)
+    """
+    if cod == 'DJ1':
+        return -1
+    return cod
