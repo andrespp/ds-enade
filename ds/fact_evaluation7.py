@@ -10,6 +10,7 @@
         UFT
 """
 import pandas as pd
+import numpy as np
 from ds.dtypes import ENADE_DTYPE
 
 def extract(data_src, gzip=False, decimal='.'):
@@ -35,13 +36,34 @@ def extract(data_src, gzip=False, decimal='.'):
     if gzip:
         compress = 'gzip'
     compress = 'infer'
-    cols = ['NU_ANO', 'CO_IES', 'CO_GRUPO', 'CO_CURSO', 'CO_MODALIDADE',
-            'CO_MUNIC_CURSO', 'CO_UF_CURSO', 'NU_IDADE', 'TP_SEXO',
-            'TP_INSCRICAO', 'TP_PRES', 'NT_GER', 'NT_FG', 'NT_CE',]
+    
+    cols = ['NU_ANO', 'CO_IES', 'CO_GRUPO', 'CO_CURSO', 'CO_MODALIDADE', \
+            'CO_MUNIC_CURSO', 'CO_UF_CURSO', 'NU_IDADE', 'TP_SEXO', \
+            'TP_INSCRICAO', 'TP_PRES', 'NT_GER', 'NT_FG', 'NT_CE']
+    
+    if (data_src == './datasrc/ENADE_2004.csv.gz') or (data_src == './datasrc/ENADE_2005.csv.gz') or \
+       (data_src == './datasrc/ENADE_2006.csv.gz') or (data_src == './datasrc/ENADE_2007.csv.gz') or \
+       (data_src == './datasrc/ENADE_2008.csv.gz') or (data_src == './datasrc/ENADE_2009.csv.gz'):
+        cols = ['nu_ano', 'co_ies', 'co_grupo', 'co_curso',
+                'co_uf_habil', 'co_munic_habil', 'nu_idade', 'tp_sexo',
+                'in_grad', 'tp_pres', 'nt_ger', 'nt_fg', 'nt_ce']
 
     df = pd.read_csv(data_src, compression=compress, dtype=ENADE_DTYPE,
                      sep=';', decimal=decimal, usecols=cols)
+    
+    # Convert name of columns to uppercase			
+    df.columns = map(str.upper, df.columns)
+    
+    # Standardized all columns in every years 
+    if df['NU_ANO'][0] == 2004 or 2005 or 2006 or 2007 or 2008 or 2009:
+        # Rename columns
+        df.rename(columns = {'IN_GRAD':'TP_INSCRICAO',
+                             'CO_UF_HABIL':'CO_UF_CURSO', 
+                             'CO_MUNIC_HABIL':'CO_MUNIC_CURSO'}, inplace = True)
 
+        # Between 2004 and 2009 only "modalidade presencial"
+        df['CO_MODALIDADE'] = np.ones(len(df))
+				
     if df['NU_ANO'][0] == 2016:
         # Corrige problema de 2016 com células contendo apenas espaços
         df['NT_GER'] = df['NT_GER'].replace(r'\s+', 0, regex=True)
