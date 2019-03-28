@@ -32,7 +32,7 @@ if __name__ == '__main__':
     ds = pd.DataFrame()
     for src_file in config['DS']['FILES'].split(','):
         data_src = config['DS']['PATH'] + src_file
-
+        
         # Extract
         print('{}. EXTRACT. Reading file. '.format(data_src), end='')
         if data_src.split('/')[-1] in ['ENADE_2016.csv.gz', 'ENADE_2017.csv.gz']:

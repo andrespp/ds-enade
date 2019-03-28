@@ -48,7 +48,7 @@ def extract(data_src, gzip=False, decimal='.'):
                 'co_uf_habil', 'co_munic_habil', 'nu_idade', 'tp_sexo',
                 'in_grad', 'tp_pres', 'nt_ger', 'nt_fg', 'nt_ce']
 
-    df = pd.read_csv(data_src, compression=compress, #dtype=ENADE_DTYPE,
+    df = pd.read_csv(data_src, compression=compress, dtype=ENADE_DTYPE,
                      sep=';', decimal=decimal, usecols=cols)
     
     # Convert name of columns to uppercase			
@@ -110,10 +110,12 @@ def transform(data, dim_groups, dim_areas):
     #################
     ## Data Selection
 
-    ## UFPA / UFOPA / UNIFESSPA / IFPA / UFRA / UNIFAP / UFT only
-    ## 569  / 15059 / 18440     / 1813 / 590  / 830    / 3849
-    data = data[data['CO_IES'].isin([569, 15059, 18440, 1813, 590, 830, 3849])]
-
+    ## Federal University in Brazil
+    ies = pd.read_csv('./datasrc/cod_ies.csv')
+    ies = ies['COD'].tolist()
+    
+    data = data[data['CO_IES'].isin(ies)]
+    
     ## Absence evaluation
     data = data[data['TP_PRES'].isin([555])] ## presente com resultado válido
 
