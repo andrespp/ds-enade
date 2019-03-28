@@ -48,7 +48,7 @@ def extract(data_src, gzip=False, decimal='.'):
                 'co_uf_habil', 'co_munic_habil', 'nu_idade', 'tp_sexo',
                 'in_grad', 'tp_pres', 'nt_ger', 'nt_fg', 'nt_ce']
 
-    df = pd.read_csv(data_src, compression=compress, dtype=ENADE_DTYPE,
+    df = pd.read_csv(data_src, compression=compress, #dtype=ENADE_DTYPE,
                      sep=';', decimal=decimal, usecols=cols)
     
     # Convert name of columns to uppercase			
@@ -63,7 +63,11 @@ def extract(data_src, gzip=False, decimal='.'):
 
         # Between 2004 and 2009 only "modalidade presencial"
         df['CO_MODALIDADE'] = np.ones(len(df))
-				
+	
+    if df['NU_ANO'][0] == 2005:
+        # Fix year 2005 with values "-2005"
+        df['NU_ANO'].replace([-2005], 2005, inplace=True) 
+        
     if df['NU_ANO'][0] == 2016:
         # Corrige problema de 2016 com células contendo apenas espaços
         df['NT_GER'] = df['NT_GER'].replace(r'\s+', 0, regex=True)
