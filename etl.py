@@ -28,6 +28,9 @@ if __name__ == '__main__':
     DF_AREA = dim_groups.extract(
         config['DS']['PATH'] + config['DS']['DIM_AREA_FILE'])
     
+    DF_IES = dim_groups.extract(
+        config['DS']['PATH'] + config['DS']['DIM_IES_FILE'])
+    
     # fact_evaluation7
     ds = pd.DataFrame()
     for src_file in config['DS']['FILES'].split(','):
@@ -43,7 +46,7 @@ if __name__ == '__main__':
         
         # Transform
         print('{}. TRANSFORM. Processing. '.format(data_src), end='')
-        df = enade7.transform(df, DF_GROUPS, DF_AREA)
+        df = enade7.transform(df, DF_GROUPS, DF_AREA, DF_IES)
         print('Done! {}'.format(df.shape))
 
         # Append new df

@@ -88,7 +88,7 @@ def extract(data_src, gzip=False, decimal='.'):
     df['NT_CE'] = df['NT_CE'].apply(pd.to_numeric, errors='coerce')
     return df
 
-def transform(data, dim_groups, dim_areas):
+def transform(data, dim_groups, dim_areas, dim_ies):
     """Transform data
 
     Parameters
@@ -110,9 +110,8 @@ def transform(data, dim_groups, dim_areas):
     #################
     ## Data Selection
 
-    ## Federal University in Brazil
-    ies = pd.read_csv('./datasrc/cod_ies.csv')
-    ies = ies['COD'].tolist()
+    ## IES in Brazil
+    ies = dim_ies['CO_IES'].tolist()
     
     data = data[data['CO_IES'].isin(ies)]
     
@@ -122,7 +121,7 @@ def transform(data, dim_groups, dim_areas):
     ##############
     ## New columns
 
-    data['NM_IES'] = data['CO_IES'].apply(get_nm_ies)
+    #data['NM_IES'] = data['CO_IES'].apply(get_nm_ies)
     data['NM_GRUPO'] = data['CO_GRUPO'].apply(
         lambda x: dim_groups[dim_groups['CO_GRUPO'] == x].iloc[0, 1])
     data['NM_MODALIDADE'] = data['CO_MODALIDADE'].apply(get_nm_modalidade)
@@ -136,17 +135,24 @@ def transform(data, dim_groups, dim_areas):
     ## data['NT_FG'] = data['NT_FG'].astype('float64')
     ## data['NT_CE'] = data['NT_CE'].astype('float64')
 
-    ## Join with "co_area.csv to know which area the course belongs to
+    ## Join with "co_area.csv" to know which area the course belongs to
     data['CO_IES'] = data['CO_IES'].astype('int64')
     data['CO_MUNIC_CURSO'] = data['CO_MUNIC_CURSO'].astype('int64')
     data['CO_CURSO'] = data['CO_CURSO'].astype('int64')
     data = data.join(dim_areas.set_index('CO_CURSO'), on='CO_CURSO')
-
+    
+    # Join with "co_ies.csv" to know informations about IES's 
+    data = data.join(dim_ies.set_index('CO_IES'), on='CO_IES')
+    
     #############################
     ## Select and reorder columns
     data = data[['NU_ANO',        # Ano da avaliação
                  'CO_IES',        # Código da IES (e-Mec)
                  'NM_IES',        # Nome das IES filtradas
+                 'CATEG_ADM',
+                 #'C0_UF',
+                 'NM_UF',
+                 'NM_REGIAO',
                  'CO_GRUPO',      # Código do grupo de enquadramento do curso
                  'NM_GRUPO',      # Nome da área de enquadramento do curso
                  'CO_CURSO',      # Código do curso no Enade
@@ -166,7 +172,7 @@ def transform(data, dim_groups, dim_areas):
                  'NM_PRES',       # Nome do tipo de presença no ENADE
                  'NT_GER',        # Nota bruta da prova
                  'NT_FG',         # Nota bruta da formação geral
-                 'NT_CE',         # Nota bruta do conhecimento específico
+                 'NT_CE',          # Nota bruta do conhecimento específico
                 ]]
     data.reset_index(drop=True, inplace=True)
 
