@@ -86,6 +86,7 @@ def extract(data_src, gzip=False, decimal='.'):
     df['NT_GER'] = df['NT_GER'].apply(pd.to_numeric, errors='coerce')
     df['NT_FG'] = df['NT_FG'].apply(pd.to_numeric, errors='coerce')
     df['NT_CE'] = df['NT_CE'].apply(pd.to_numeric, errors='coerce')
+    
     return df
 
 def transform(data, dim_groups, dim_areas, dim_ies):
@@ -144,9 +145,13 @@ def transform(data, dim_groups, dim_areas, dim_ies):
     # Join with "co_ies.csv" to know informations about IES's 
     data = data.join(dim_ies.set_index('CO_IES'), on='CO_IES')
     
+    # Add Cyclo
+    data['CICLO'] = data['NU_ANO'].apply(add_ciclo)
+    
     #############################
     ## Select and reorder columns
     data = data[['NU_ANO',        # Ano da avaliação
+                 'CICLO',         # Ciclo de avaliação do ENADE
                  'CO_IES',        # Código da IES (e-Mec)
                  'NM_IES',        # Nome das IES filtradas
                  'CATEG_ADM',
@@ -292,3 +297,18 @@ def aux_convert_dj1(cod):
     if cod == 'DJ1':
         return -1
     return cod
+
+def add_ciclo(ano):
+    # ENADE evaluation cycle
+    ### Cycle I = 2004, 2007, 2010, 2013, 2016
+    ### Cycle II = 2005, 2008, 2011, 2014, 2017
+    ### Cycle III = 2006, 2009, 2012, 2015
+    if (ano == 2004) or (ano == 2007) or (ano == 2010) or \
+    (ano == 2013) or (ano == 2016):
+        return 'Ciclo 1'
+    elif (ano == 2005) or (ano == 2008) or (ano == 2011) or \
+    (ano == 2014) or (ano == 2017):
+        return 'Ciclo 2'
+    elif (ano == 2006) or (ano == 2009) or (ano == 2012) or \
+    (ano == 2015):
+        return 'Ciclo 3'
