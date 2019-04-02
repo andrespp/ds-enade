@@ -60,3 +60,4 @@ def load(data, out_file, truncate=False):
     tmp = data, out_file, truncate
 
     return True
+
