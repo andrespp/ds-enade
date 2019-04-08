@@ -55,7 +55,8 @@ def extract(data_src, gzip=False, decimal='.'):
     df.columns = map(str.upper, df.columns)
     
     # Standardized all columns in every years 
-    if df['NU_ANO'][0] == 2004 or 2005 or 2006 or 2007 or 2008 or 2009:
+    if (df['NU_ANO'][0] == 2004) or (df['NU_ANO'][0] == 2005) or (df['NU_ANO'][0] == 2006) or \
+    (df['NU_ANO'][0] == 2007) or (df['NU_ANO'][0] == 2008) or (df['NU_ANO'][0] == 2009):
         # Rename columns
         df.rename(columns = {'IN_GRAD':'TP_INSCRICAO',
                              'CO_UF_HABIL':'CO_UF_CURSO', 
