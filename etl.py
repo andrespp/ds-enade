@@ -24,28 +24,37 @@ if __name__ == '__main__':
     # dim_groups
     DF_GROUPS = dim_groups.extract(
         config['DS']['PATH'] + config['DS']['DIM_GROUP_FILE'])
-
+    
+    DF_AREA = dim_groups.extract(
+        config['DS']['PATH'] + config['DS']['DIM_AREA_FILE'])
+    
+    DF_IES = dim_groups.extract(
+        config['DS']['PATH'] + config['DS']['DIM_IES_FILE'])
+    
     # fact_evaluation7
     ds = pd.DataFrame()
     for src_file in config['DS']['FILES'].split(','):
         data_src = config['DS']['PATH'] + src_file
-
+        
         # Extract
         print('{}. EXTRACT. Reading file. '.format(data_src), end='')
-        df = enade7.extract(data_src)
+        if data_src.split('/')[-1] in ['ENADE_2016.csv.gz', 'ENADE_2017.csv.gz']:
+            df = enade7.extract(data_src, decimal=',')
+        else:
+            df = enade7.extract(data_src, decimal='.')
         print('Done! {}'.format(df.shape))
-
+        
         # Transform
         print('{}. TRANSFORM. Processing. '.format(data_src), end='')
-        df = enade7.transform(df, DF_GROUPS)
+        df = enade7.transform(df, DF_GROUPS, DF_AREA, DF_IES)
         print('Done! {}'.format(df.shape))
 
         # Append new df
         ds = ds.append(df, ignore_index=True)
 
     # Load Dataset
-    enade7.load(ds, config['DS']['DATASET_FILE'])
-    print('{}. Dataset written!'.format(config['DS']['DATASET_FILE']))
-
-#print(ds)
-#print(ds.shape)
+    enade7.load(ds,
+                fname=config['DS']['DATASET_FILE'],
+                ftype=config['DS']['DATASET_FTYPE'])
+    print('{}. Dataset written! {}'.format(config['DS']['DATASET_FILE'],
+                                           ds.shape))

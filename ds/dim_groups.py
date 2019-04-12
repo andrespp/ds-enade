@@ -1,6 +1,6 @@
 """dim_groups.py
 
-    Área de enquadramento do curso no Enade
+    Grupo de enquadramento do curso no Enade
 
 """
 import pandas as pd
@@ -60,3 +60,4 @@ def load(data, out_file, truncate=False):
     tmp = data, out_file, truncate
 
     return True
+

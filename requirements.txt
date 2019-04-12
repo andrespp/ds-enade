@@ -1,7 +1,7 @@
 pandas
 numpy
 snappy
-fastparquet
+pyarrow
 matplotlib
 seaborn
 plotly

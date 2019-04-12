@@ -1,0 +1,2019 @@
+CO_IES,NM_IES,CATEG_ADM,CO_UF,NM_UF,NM_REGIAO
+1,UFMT,Pública Federal,51,MT,Centro-Oeste
+2,UNB,Pública Federal,53,DF,Centro-Oeste
+3,UFS,Pública Federal,28,SE,Nordeste
+4,UFAM,Pública Federal,13,AM,Norte
+5,UFPI,Pública Federal,22,PI,Nordeste
+6,UFOP,Pública Federal,31,MG,Sudeste
+7,UFSCAR,Pública Federal,35,SP,Sudeste
+8,UFV,Pública Federal,31,MG,Sudeste
+9,UEL,Pública Estadual,41,PR,Sul
+10,PUCPR,Privada sem fins lucrativos,41,PR,Sul
+11,UNICAP,Privada sem fins lucrativos,26,PE,Nordeste
+12,FURG,Pública Federal,43,RS,Sul
+13,UCS,Privada sem fins lucrativos,43,RS,Sul
+14,UNISINOS,Privada sem fins lucrativos,43,RS,Sul
+15,UCP,Privada sem fins lucrativos,33,RJ,Sudeste
+17,UFU,Pública Federal,31,MG,Sudeste
+18,UCPEL,Privada sem fins lucrativos,43,RS,Sul
+19,PUC-CAMPINAS,Privada sem fins lucrativos,35,SP,Sudeste
+20,UPF,Privada sem fins lucrativos,43,RS,Sul
+21,PUCRS,Privada sem fins lucrativos,43,RS,Sul
+22,MACKENZIE,Privada sem fins lucrativos,35,SP,Sudeste
+23,FEEVALE,Privada sem fins lucrativos,43,RS,Sul
+24,UESC,Pública Estadual,29,BA,Nordeste
+26,ENCE,Pública Federal,33,RJ,Sudeste
+27,UNINCOR,Privada sem fins lucrativos,31,MG,Sudeste
+29,UECE,Pública Estadual,23,CE,Nordeste
+30,UNIFENAS,Privada sem fins lucrativos,31,MG,Sudeste
+31,UTRAMIG,Pública Estadual,31,MG,Sudeste
+32,UNCISAL,Pública Estadual,27,AL,Nordeste
+33,FATEC SO,Pública Estadual,35,SP,Sudeste
+34,FATEC-SP,Pública Estadual,35,SP,Sudeste
+35,FATEC-AM,Pública Estadual,35,SP,Sudeste
+36,FATEC-BS,Pública Estadual,35,SP,Sudeste
+37,FATEC-JAHU,Pública Estadual,35,SP,Sudeste
+38,UEPA,Pública Estadual,15,PA,Norte
+40,UNEB,Pública Estadual,29,BA,Nordeste
+43,UDESC,Pública Estadual,42,SC,Sul
+47,UEG,Pública Estadual,52,GO,Centro-Oeste
+54,UNICAMP,Pública Estadual,35,SP,Sudeste
+55,USP,Pública Estadual,35,SP,Sudeste
+56,UNESP,Pública Estadual,35,SP,Sudeste
+57,UEM,Pública Estadual,41,PR,Sul
+58,FDSBC,Pública Municipal,35,SP,Sudeste
+67,EEP/FUMEP,Pública Municipal,35,SP,Sudeste
+68,FAFIPE,Privada sem fins lucrativos,35,SP,Sudeste
+71,UERN,Pública Estadual,24,RN,Nordeste
+72,FAMASUL,Pública Municipal,26,PE,Nordeste
+73,CESA,Pública Municipal,26,PE,Nordeste
+74,FFCL,Pública Municipal,35,SP,Sudeste
+77,FERLAGOS,Privada sem fins lucrativos,33,RJ,Sudeste
+78,FAFIA,Pública Municipal,32,ES,Sudeste
+81,UNIVILLE,Privada sem fins lucrativos,42,SC,Sul
+82,UNOESC,Privada sem fins lucrativos,42,SC,Sul
+83,UNIVALI,Privada sem fins lucrativos,42,SC,Sul
+84,FAFIMA,Privada sem fins lucrativos,33,RJ,Sudeste
+87,UNIFEBE,Privada sem fins lucrativos,42,SC,Sul
+93,FMJ,Pública Municipal,35,SP,Sudeste
+94,ESEFJ,Pública Municipal,35,SP,Sudeste
+95,UVA,Pública Estadual,23,CE,Nordeste
+99,FDCL,Privada sem fins lucrativos,31,MG,Sudeste
+107,UFSJ,Pública Federal,31,MG,Sudeste
+109,FIRB,Privada com fins lucrativos,35,SP,Sudeste
+124,UNIARA,Privada sem fins lucrativos,35,SP,Sudeste
+125,UNAR,Privada sem fins lucrativos,35,SP,Sudeste
+126,INATEL,Privada sem fins lucrativos,31,MG,Sudeste
+131,FAEFI,Privada sem fins lucrativos,35,SP,Sudeste
+135,CEUCLAR,Privada sem fins lucrativos,35,SP,Sudeste
+137,USC,Privada sem fins lucrativos,35,SP,Sudeste
+138,CBM,Privada sem fins lucrativos,35,SP,Sudeste
+139,FCETM,Privada sem fins lucrativos,31,MG,Sudeste
+140,USS,Privada sem fins lucrativos,33,RJ,Sudeste
+141,FADIVA,Privada sem fins lucrativos,31,MG,Sudeste
+142,UNITRI,Privada sem fins lucrativos,31,MG,Sudeste
+143,UNIUBE,Privada sem fins lucrativos,31,MG,Sudeste
+144,FACHO,Privada sem fins lucrativos,26,PE,Nordeste
+146,UNIRP,Privada com fins lucrativos,35,SP,Sudeste
+149,FAMERP,Pública Estadual,35,SP,Sudeste
+150,UNISO,Privada sem fins lucrativos,35,SP,Sudeste
+151,FGV-EAESP,Privada sem fins lucrativos,35,SP,Sudeste
+152,FACIC,Privada sem fins lucrativos,29,BA,Nordeste
+158,CBM/CEU,Privada sem fins lucrativos,33,RJ,Sudeste
+159,FAFICA,Privada sem fins lucrativos,26,PE,Nordeste
+160,FAFIRE,Privada sem fins lucrativos,26,PE,Nordeste
+161,UNIFAI,Privada sem fins lucrativos,35,SP,Sudeste
+162,FEBASP,Privada sem fins lucrativos,35,SP,Sudeste
+163,UNESA,Privada com fins lucrativos,33,RJ,Sudeste
+165,UVA,Privada com fins lucrativos,33,RJ,Sudeste
+167,UMESP,Privada sem fins lucrativos,35,SP,Sudeste
+170,FAFEM,Pública Municipal,35,SP,Sudeste
+171,FDSM,Privada sem fins lucrativos,31,MG,Sudeste
+176,UCB,Privada sem fins lucrativos,33,RJ,Sudeste
+190,EMSM,Privada sem fins lucrativos,33,RJ,Sudeste
+191,FCCAE,Privada sem fins lucrativos,33,RJ,Sudeste
+192,FFCLSM,Privada sem fins lucrativos,33,RJ,Sudeste
+193,FESM,Privada sem fins lucrativos,33,RJ,Sudeste
+194,EEFTESM,Privada sem fins lucrativos,33,RJ,Sudeste
+197,FESPPR,Privada sem fins lucrativos,41,PR,Sul
+200,FCL,Privada sem fins lucrativos,35,SP,Sudeste
+202,FEFRJ,Privada com fins lucrativos,33,RJ,Sudeste
+203,USJT,Privada com fins lucrativos,35,SP,Sudeste
+206,UNIÍTALO,Privada sem fins lucrativos,35,SP,Sudeste
+207,CUML,Privada sem fins lucrativos,35,SP,Sudeste
+208,UNAERP,Privada sem fins lucrativos,35,SP,Sudeste
+213,FECAP,Privada sem fins lucrativos,35,SP,Sudeste
+214,FEAMIG,Privada sem fins lucrativos,31,MG,Sudeste
+216,CEUNIH,Privada sem fins lucrativos,31,MG,Sudeste
+219,FAECA DOM BOSCO,Privada sem fins lucrativos,35,SP,Sudeste
+220,FSJT,Privada sem fins lucrativos,33,RJ,Sudeste
+221,UNICSUL,Privada com fins lucrativos,35,SP,Sudeste
+222,UNIFEV,Privada sem fins lucrativos,35,SP,Sudeste
+224,FMABC,Privada sem fins lucrativos,35,SP,Sudeste
+225,IESA,Privada com fins lucrativos,35,SP,Sudeste
+226,UNILUS,Privada sem fins lucrativos,35,SP,Sudeste
+227,UNISANTOS,Privada sem fins lucrativos,35,SP,Sudeste
+231,FASB I,Privada sem fins lucrativos,35,SP,Sudeste
+234,FOC,Privada com fins lucrativos,35,SP,Sudeste
+240,USU,Privada sem fins lucrativos,33,RJ,Sudeste
+243,FCNM,Privada sem fins lucrativos,35,SP,Sudeste
+244,UNIFIEO,Privada sem fins lucrativos,35,SP,Sudeste
+254,UNICAPITAL,Privada com fins lucrativos,35,SP,Sudeste
+255,FEAP,Privada sem fins lucrativos,35,SP,Sudeste
+263,FICS,Privada sem fins lucrativos,35,SP,Sudeste
+265,FIO,Privada sem fins lucrativos,35,SP,Sudeste
+266,UNIMEP,Privada sem fins lucrativos,35,SP,Sudeste
+268,FADAP,Privada com fins lucrativos,35,SP,Sudeste
+269,FACCAT,Privada com fins lucrativos,35,SP,Sudeste
+271,UNOESTE,Privada sem fins lucrativos,35,SP,Sudeste
+275,UNIVAP,Privada sem fins lucrativos,35,SP,Sudeste
+276,FADI,Privada sem fins lucrativos,35,SP,Sudeste
+277,UNISUAM,Privada sem fins lucrativos,33,RJ,Sudeste
+278,FIS,Privada sem fins lucrativos,33,RJ,Sudeste
+279,FACHA,Privada sem fins lucrativos,33,RJ,Sudeste
+284,FMIT,Privada sem fins lucrativos,31,MG,Sudeste
+288,FADIVALE,Privada sem fins lucrativos,31,MG,Sudeste
+294,SETREM,Privada sem fins lucrativos,43,RS,Sul
+295,UNISC,Privada sem fins lucrativos,43,RS,Sul
+296,URCAMP,Privada sem fins lucrativos,43,RS,Sul
+299,FAFIJAN,Privada sem fins lucrativos,41,PR,Sul
+307,FAME,Privada sem fins lucrativos,31,MG,Sudeste
+308,UNIPAC,Privada sem fins lucrativos,31,MG,Sudeste
+316,UNINOVE,Privada sem fins lucrativos,35,SP,Sudeste
+321,FDT,Privada sem fins lucrativos,35,SP,Sudeste
+322,UNIP,Privada sem fins lucrativos,35,SP,Sudeste
+330,UNIG,Privada sem fins lucrativos,33,RJ,Sudeste
+336,FMS,Privada sem fins lucrativos,31,MG,Sudeste
+337,CES/JF,Privada sem fins lucrativos,31,MG,Sudeste
+338,PUC MINAS,Privada sem fins lucrativos,31,MG,Sudeste
+339,FASER,Privada sem fins lucrativos,25,PB,Nordeste
+343,NEWTON PAIVA,Privada com fins lucrativos,31,MG,Sudeste
+344,UNA,Privada com fins lucrativos,31,MG,Sudeste
+345,EEK,Privada sem fins lucrativos,31,MG,Sudeste
+346,ISCA,Privada sem fins lucrativos,35,SP,Sudeste
+349,UNI-BH,Privada com fins lucrativos,31,MG,Sudeste
+351,FCMMG,Privada sem fins lucrativos,31,MG,Sudeste
+352,UNIPÊ,Privada sem fins lucrativos,25,PB,Nordeste
+353,FEPAR,Privada sem fins lucrativos,41,PR,Sul
+355,UTP,Privada com fins lucrativos,41,PR,Sul
+360,UNIPAULISTANA,Privada sem fins lucrativos,35,SP,Sudeste
+361,FAPSS-SCS,Privada sem fins lucrativos,35,SP,Sudeste
+362,FAPSS-SP.,Privada sem fins lucrativos,35,SP,Sudeste
+363,FAMOSP,Privada sem fins lucrativos,35,SP,Sudeste
+367,UNIMONTES,Pública Estadual,31,MG,Sudeste
+368,FEFISO,Privada sem fins lucrativos,35,SP,Sudeste
+370,FPA,Privada sem fins lucrativos,35,SP,Sudeste
+371,FMCG,Privada com fins lucrativos,35,SP,Sudeste
+372,FABCI,Privada sem fins lucrativos,35,SP,Sudeste
+373,ESP,Privada sem fins lucrativos,35,SP,Sudeste
+374,FMU,Privada sem fins lucrativos,35,SP,Sudeste
+375,UNISA,Privada sem fins lucrativos,35,SP,Sudeste
+383,UNAMA,Privada com fins lucrativos,15,PA,Norte
+384,UNIEVANGÉLICA,Privada sem fins lucrativos,52,GO,Centro-Oeste
+385,UNIFACS,Privada com fins lucrativos,29,BA,Nordeste
+386,UNI-ANHANGÜERA,Privada sem fins lucrativos,52,GO,Centro-Oeste
+387,UCDB,Privada sem fins lucrativos,50,MS,Centro-Oeste
+396,FRBA,Privada com fins lucrativos,29,BA,Nordeste
+398,UNIT,Privada com fins lucrativos,28,SE,Nordeste
+399,EEA,Privada sem fins lucrativos,29,BA,Nordeste
+402,UNICEUB,Privada sem fins lucrativos,53,DF,Centro-Oeste
+403,UCB,Privada sem fins lucrativos,53,DF,Centro-Oeste
+404,UPIS,Privada sem fins lucrativos,53,DF,Centro-Oeste
+405,FOCCA,Privada sem fins lucrativos,26,PE,Nordeste
+409,UPE,Pública Estadual,26,PE,Nordeste
+410,FCHE,Privada sem fins lucrativos,26,PE,Nordeste
+415,FCMSCSP,Privada sem fins lucrativos,35,SP,Sudeste
+416,FASP,Privada sem fins lucrativos,35,SP,Sudeste
+417,UNICID,Privada com fins lucrativos,35,SP,Sudeste
+420,UNIMAR,Privada com fins lucrativos,35,SP,Sudeste
+423,URI,Privada sem fins lucrativos,43,RS,Sul
+426,UNIFRA,Privada sem fins lucrativos,43,RS,Sul
+430,UNIFIL,Privada sem fins lucrativos,41,PR,Sul
+431,FAMEMA,Pública Estadual,35,SP,Sudeste
+432,FACCAR,Privada sem fins lucrativos,41,PR,Sul
+434,FASM,Privada sem fins lucrativos,35,SP,Sudeste
+435,FASM,Privada sem fins lucrativos,31,MG,Sudeste
+437,UNIPAR,Privada sem fins lucrativos,41,PR,Sul
+438,FFCL,Privada sem fins lucrativos,35,SP,Sudeste
+439,FAFRAM,Privada sem fins lucrativos,35,SP,Sudeste
+440,FADITU,Privada com fins lucrativos,35,SP,Sudeste
+446,UNICRUZ,Privada sem fins lucrativos,43,RS,Sul
+448,UNIRITTER,Privada com fins lucrativos,43,RS,Sul
+449,ULBRA,Privada sem fins lucrativos,43,RS,Sul
+450,CEULJI/ULBRA,Privada sem fins lucrativos,11,RO,Norte
+451,CEULS,Privada sem fins lucrativos,15,PA,Norte
+452,CEULM/ULBRA,Privada sem fins lucrativos,13,AM,Norte
+453,CEULP,Privada sem fins lucrativos,17,TO,Norte
+454,FACCCA,Privada sem fins lucrativos,43,RS,Sul
+456,UNISANT'ANNA,Privada sem fins lucrativos,35,SP,Sudeste
+457,UNIAN - SP,Privada com fins lucrativos,35,SP,Sudeste
+458,UNIB,Privada sem fins lucrativos,35,SP,Sudeste
+460,FAAP,Privada sem fins lucrativos,35,SP,Sudeste
+461,FAE-FAAP,Privada sem fins lucrativos,35,SP,Sudeste
+462,FEFAAP,Privada sem fins lucrativos,35,SP,Sudeste
+463,FACOM-FAAP,Privada sem fins lucrativos,35,SP,Sudeste
+464,FEC-FAAP,Privada sem fins lucrativos,35,SP,Sudeste
+466,UAM,Privada com fins lucrativos,35,SP,Sudeste
+467,FCCI,Privada com fins lucrativos,35,SP,Sudeste
+472,UNIGRANRIO,Privada sem fins lucrativos,33,RJ,Sudeste
+474,FFCLDB,Privada sem fins lucrativos,33,RJ,Sudeste
+475,FMP,Privada sem fins lucrativos,33,RJ,Sudeste
+480,UNIFESO,Privada sem fins lucrativos,33,RJ,Sudeste
+481,UNG,Privada sem fins lucrativos,35,SP,Sudeste
+482,UNESC,Privada sem fins lucrativos,42,SC,Sul
+483,UNIMESP,Privada sem fins lucrativos,35,SP,Sudeste
+489,UNIFOA,Privada sem fins lucrativos,33,RJ,Sudeste
+490,CESVA,Privada sem fins lucrativos,33,RJ,Sudeste
+491,FECLE,Privada sem fins lucrativos,35,SP,Sudeste
+492,FACEAG,Privada sem fins lucrativos,35,SP,Sudeste
+493,FACEG,Privada sem fins lucrativos,35,SP,Sudeste
+494,UNISUL,Privada sem fins lucrativos,42,SC,Sul
+495,FESB,Pública Municipal,35,SP,Sudeste
+496,UNIFRAN,Privada com fins lucrativos,35,SP,Sudeste
+501,EMESCAM,Privada sem fins lucrativos,32,ES,Sudeste
+502,UNIMONTE,Privada com fins lucrativos,35,SP,Sudeste
+506,FMC,Privada sem fins lucrativos,33,RJ,Sudeste
+507,FTM,Privada sem fins lucrativos,31,MG,Sudeste
+508,FACESM,Privada sem fins lucrativos,31,MG,Sudeste
+513,UNIVALE,Privada sem fins lucrativos,31,MG,Sudeste
+514,UBM,Privada sem fins lucrativos,33,RJ,Sudeste
+515,UNIAN,Privada com fins lucrativos,33,RJ,Sudeste
+516,UNIMSB,Privada sem fins lucrativos,33,RJ,Sudeste
+517,FESL,Privada sem fins lucrativos,35,SP,Sudeste
+518,UDF,Privada com fins lucrativos,53,DF,Centro-Oeste
+519,UCSAL,Privada sem fins lucrativos,29,BA,Nordeste
+521,UMC,Privada com fins lucrativos,35,SP,Sudeste
+522,UCL,Privada sem fins lucrativos,33,RJ,Sudeste
+526,UBC,Privada com fins lucrativos,35,SP,Sudeste
+527,PUC GOIÁS,Privada sem fins lucrativos,52,GO,Centro-Oeste
+528,PUC-RIO,Privada sem fins lucrativos,33,RJ,Sudeste
+530,FAMES,Pública Estadual,32,ES,Sudeste
+533,FII,Privada sem fins lucrativos,35,SP,Sudeste
+534,EBMSP,Privada sem fins lucrativos,29,BA,Nordeste
+544,FACHI,Privada sem fins lucrativos,31,MG,Sudeste
+545,FACCI,Privada sem fins lucrativos,31,MG,Sudeste
+546,PUCSP,Privada sem fins lucrativos,35,SP,Sudeste
+547,UERJ,Pública Estadual,33,RJ,Sudeste
+548,UFMA,Pública Federal,21,MA,Nordeste
+549,UFAC,Pública Federal,12,AC,Norte
+550,UEPB,Pública Estadual,25,PB,Nordeste
+555,UNIFOR,Privada sem fins lucrativos,23,CE,Nordeste
+568,UEMA,Pública Estadual,21,MA,Nordeste
+569,UFPA,Pública Federal,15,PA,Norte
+570,UFRN,Pública Federal,24,RN,Nordeste
+571,UFPR,Pública Federal,41,PR,Sul
+572,UFF,Pública Federal,33,RJ,Sudeste
+573,UFES,Pública Federal,32,ES,Sudeste
+574,UFRRJ,Pública Federal,33,RJ,Sudeste
+575,UFMG,Pública Federal,31,MG,Sudeste
+576,UFJF,Pública Federal,31,MG,Sudeste
+577,UFAL,Pública Federal,27,AL,Nordeste
+578,UFBA,Pública Federal,29,BA,Nordeste
+579,UFPB,Pública Federal,25,PB,Nordeste
+580,UFPE,Pública Federal,26,PE,Nordeste
+581,UFRGS,Pública Federal,43,RS,Sul
+582,UFSM,Pública Federal,43,RS,Sul
+583,UFC,Pública Federal,23,CE,Nordeste
+584,UFG,Pública Federal,52,GO,Centro-Oeste
+585,UFSC,Pública Federal,42,SC,Sul
+586,UFRJ,Pública Federal,33,RJ,Sudeste
+587,UFRPE,Pública Federal,26,PE,Nordeste
+588,UTFPR,Pública Federal,41,PR,Sul
+589,UFERSA,Pública Federal,24,RN,Nordeste
+590,UFRA,Pública Federal,15,PA,Norte
+591,UNIFESP,Pública Federal,35,SP,Sudeste
+592,UFLA,Pública Federal,31,MG,Sudeste
+593,CEFET/RJ,Pública Federal,33,RJ,Sudeste
+594,CEFET/MG,Pública Federal,31,MG,Sudeste
+595,UNIFAL-MG,Pública Federal,31,MG,Sudeste
+596,UFVJM,Pública Federal,31,MG,Sudeste
+597,UFTM,Pública Federal,31,MG,Sudeste
+598,UNIFEI,Pública Federal,31,MG,Sudeste
+602,ITA,Pública Federal,35,SP,Sudeste
+605,USCS,Pública Municipal,35,SP,Sudeste
+606,FDCI,Privada sem fins lucrativos,32,ES,Sudeste
+607,FACCACI,Privada sem fins lucrativos,32,ES,Sudeste
+609,UNIOESTE,Pública Estadual,41,PR,Sul
+610,BENNETT,Privada sem fins lucrativos,33,RJ,Sudeste
+621,CESMAC,Privada sem fins lucrativos,27,AL,Nordeste
+622,FAU,Privada sem fins lucrativos,33,RJ,Sudeste
+625,FACECAP,Privada sem fins lucrativos,35,SP,Sudeste
+626,FACOS,Privada sem fins lucrativos,43,RS,Sul
+627,FACECA,Privada sem fins lucrativos,31,MG,Sudeste
+633,IME,Pública Federal,33,RJ,Sudeste
+634,UFPEL,Pública Federal,43,RS,Sul
+636,ESPM,Privada sem fins lucrativos,35,SP,Sudeste
+637,FESP,Privada sem fins lucrativos,35,SP,Sudeste
+638,FDMC,Privada sem fins lucrativos,31,MG,Sudeste
+640,FAMATH,Privada com fins lucrativos,33,RJ,Sudeste
+641,UNILASALLE,Privada sem fins lucrativos,43,RS,Sul
+645,Católica em Jaraguá,Privada sem fins lucrativos,42,SC,Sul
+647,FELM,Privada sem fins lucrativos,33,RJ,Sudeste
+648,FAZU,Privada sem fins lucrativos,31,MG,Sudeste
+649,UNIUV,Pública Municipal,41,PR,Sul
+650,IESA/FACCAA,Privada com fins lucrativos,35,SP,Sudeste
+651,FAGV,Privada sem fins lucrativos,31,MG,Sudeste
+652,FASC,Privada sem fins lucrativos,35,SP,Sudeste
+661,FPD,Privada com fins lucrativos,28,SE,Nordeste
+662,FAINC,Privada sem fins lucrativos,35,SP,Sudeste
+663,UNIVERSO,Privada sem fins lucrativos,33,RJ,Sudeste
+664,UVV,Privada sem fins lucrativos,32,ES,Sudeste
+666,UEFS,Pública Estadual,29,BA,Nordeste
+667,FIJ,Privada sem fins lucrativos,33,RJ,Sudeste
+668,CIESA,Privada com fins lucrativos,13,AM,Norte
+669,UNINILTONLINS,Privada sem fins lucrativos,13,AM,Norte
+670,USF,Privada sem fins lucrativos,35,SP,Sudeste
+671,UNIDERP,Privada com fins lucrativos,50,MS,Centro-Oeste
+672,FACENS,Privada sem fins lucrativos,35,SP,Sudeste
+673,UNIGRAN,Privada sem fins lucrativos,50,MS,Centro-Oeste
+674,CESVASF,Pública Municipal,26,PE,Nordeste
+677,FRASCE,Privada sem fins lucrativos,33,RJ,Sudeste
+682,FINOM,Privada com fins lucrativos,31,MG,Sudeste
+685,FBJ,Pública Municipal,26,PE,Nordeste
+686,FACAL,Pública Municipal,26,PE,Nordeste
+688,UESB,Pública Estadual,29,BA,Nordeste
+693,UNIRIO,Pública Federal,33,RJ,Sudeste
+694,UFMS,Pública Federal,50,MS,Centro-Oeste
+699,UNIR,Pública Federal,11,RO,Norte
+701,FAGA,Pública Municipal,26,PE,Nordeste
+702,FADIMAB,Pública Municipal,26,PE,Nordeste
+703,FAFOPA,Pública Municipal,26,PE,Nordeste
+704,FACIAGRA,Pública Municipal,26,PE,Nordeste
+705,FSJ,Privada sem fins lucrativos,33,RJ,Sudeste
+706,FADM,Privada sem fins lucrativos,53,DF,Centro-Oeste
+707,UNICEP,Privada com fins lucrativos,35,SP,Sudeste
+710,FABES,Privada sem fins lucrativos,33,RJ,Sudeste
+712,UNI IBMR,Privada com fins lucrativos,33,RJ,Sudeste
+715,FAE,Privada sem fins lucrativos,41,PR,Sul
+716,UNIFAC,Privada sem fins lucrativos,35,SP,Sudeste
+717,UFCSPA,Pública Federal,43,RS,Sul
+718,UNP,Privada com fins lucrativos,24,RN,Nordeste
+719,UNEMAT,Pública Estadual,51,MT,Centro-Oeste
+720,FACHUCA,Pública Municipal,26,PE,Nordeste
+721,FAEDA,Privada sem fins lucrativos,35,SP,Sudeste
+722,EEFA,Privada sem fins lucrativos,35,SP,Sudeste
+723,FAA,Privada sem fins lucrativos,35,SP,Sudeste
+724,UNIFACEX,Privada sem fins lucrativos,24,RN,Nordeste
+728,FACIC,Privada sem fins lucrativos,31,MG,Sudeste
+730,UEPG,Pública Estadual,41,PR,Sul
+734,FIMI,Privada sem fins lucrativos,35,SP,Sudeste
+737,SAO CAMILO,Privada sem fins lucrativos,35,SP,Sudeste
+738,FATEA,Privada sem fins lucrativos,35,SP,Sudeste
+739,SĂO CAMILO-ES,Privada sem fins lucrativos,32,ES,Sudeste
+744,FA,Pública Municipal,52,GO,Centro-Oeste
+745,IMESSM,Pública Municipal,35,SP,Sudeste
+746,URCA,Pública Estadual,23,CE,Nordeste
+749,CESVALE,Privada com fins lucrativos,22,PI,Nordeste
+750,UNIRG,Pública Municipal,17,TO,Norte
+752,FAPAM,Privada sem fins lucrativos,31,MG,Sudeste
+753,FACHUSC,Pública Municipal,26,PE,Nordeste
+754,CESUC,Privada sem fins lucrativos,52,GO,Centro-Oeste
+755,CESUT,Privada sem fins lucrativos,52,GO,Centro-Oeste
+756,UESPI,Pública Estadual,22,PI,Nordeste
+757,ISES,Privada com fins lucrativos,15,PA,Norte
+759,SEFLU,Privada sem fins lucrativos,33,RJ,Sudeste
+760,FCHPE,Privada com fins lucrativos,26,PE,Nordeste
+761,FACSPEI,Privada sem fins lucrativos,41,PR,Sul
+763,IUESO,Privada sem fins lucrativos,52,GO,Centro-Oeste
+764,FAPG,Privada sem fins lucrativos,33,RJ,Sudeste
+769,FINAV,Privada sem fins lucrativos,50,MS,Centro-Oeste
+778,ETEP,Privada com fins lucrativos,35,SP,Sudeste
+779,FAP,Privada sem fins lucrativos,50,MS,Centro-Oeste
+780,UNIC / PITÁGORAS,Privada com fins lucrativos,51,MT,Centro-Oeste
+781,FAR,Privada com fins lucrativos,51,MT,Centro-Oeste
+785,FACEDUTS,Privada com fins lucrativos,51,MT,Centro-Oeste
+788,FARO,Privada sem fins lucrativos,11,RO,Norte
+789,UFRR,Pública Federal,14,RR,Norte
+790,FICSAE,Privada sem fins lucrativos,35,SP,Sudeste
+792,CESUPA,Privada sem fins lucrativos,15,PA,Norte
+794,UNIVAG,Privada sem fins lucrativos,51,MT,Centro-Oeste
+795,FID,Privada sem fins lucrativos,51,MT,Centro-Oeste
+796,EDUVALE,Privada com fins lucrativos,51,MT,Centro-Oeste
+797,AVEC,Privada sem fins lucrativos,11,RO,Norte
+798,FAACZ,Privada sem fins lucrativos,32,ES,Sudeste
+801,FAM,Privada sem fins lucrativos,29,BA,Nordeste
+802,UNICARIOCA,Privada sem fins lucrativos,33,RJ,Sudeste
+803,FIA,Privada sem fins lucrativos,35,SP,Sudeste
+809,FADILESTE,Privada sem fins lucrativos,31,MG,Sudeste
+810,CTESOP,Privada com fins lucrativos,41,PR,Sul
+823,UNICEUMA,Privada sem fins lucrativos,21,MA,Nordeste
+825,FAGAMMON,Privada sem fins lucrativos,31,MG,Sudeste
+826,UNIDESC,Privada sem fins lucrativos,52,GO,Centro-Oeste
+829,UNITINS,Pública Estadual,17,TO,Norte
+830,UNIFAP,Pública Federal,16,AP,Norte
+831,FCHVRG,Privada com fins lucrativos,35,SP,Sudeste
+832,FAC,Privada sem fins lucrativos,31,MG,Sudeste
+833,FIAR,Privada sem fins lucrativos,11,RO,Norte
+838,FCTFOR,Privada sem fins lucrativos,23,CE,Nordeste
+839,FAVI,Privada sem fins lucrativos,32,ES,Sudeste
+840,FAVI,Privada sem fins lucrativos,32,ES,Sudeste
+843,FATEB,Pública Municipal,35,SP,Sudeste
+845,FAC-FEA,Pública Municipal,35,SP,Sudeste
+846,FAT,Privada sem fins lucrativos,22,PI,Nordeste
+847,FPPD,Privada sem fins lucrativos,22,PI,Nordeste
+848,FPPD,Privada sem fins lucrativos,25,PB,Nordeste
+849,FAJE,Privada sem fins lucrativos,31,MG,Sudeste
+852,FIAP,Privada com fins lucrativos,35,SP,Sudeste
+861,CEAP,Privada sem fins lucrativos,16,AP,Norte
+862,FESCG,Privada com fins lucrativos,50,MS,Centro-Oeste
+873,UNIFOZ,Privada com fins lucrativos,41,PR,Sul
+874,FESAV,Privada sem fins lucrativos,32,ES,Sudeste
+877,FEPI,Privada sem fins lucrativos,41,PR,Sul
+878,UNILESTEMG,Privada sem fins lucrativos,31,MG,Sudeste
+881,IMESA,Pública Municipal,35,SP,Sudeste
+886,FACH,Privada sem fins lucrativos,35,SP,Sudeste
+890,EG,Pública Estadual,31,MG,Sudeste
+898,FACEAS,Privada sem fins lucrativos,35,SP,Sudeste
+900,FATEC,Privada sem fins lucrativos,11,RO,Norte
+905,FACEPD,Privada com fins lucrativos,35,SP,Sudeste
+906,FECGS,Privada sem fins lucrativos,35,SP,Sudeste
+908,FAA,Privada sem fins lucrativos,27,AL,Nordeste
+909,FABEL,Privada sem fins lucrativos,33,RJ,Sudeste
+910,FCACSL,Privada sem fins lucrativos,35,SP,Sudeste
+913,FIPAR,Privada sem fins lucrativos,50,MS,Centro-Oeste
+915,FAFS,Privada sem fins lucrativos,50,MS,Centro-Oeste
+916,ESTÁCIO TERESINA,Privada com fins lucrativos,22,PI,Nordeste
+917,FACINAV,Privada sem fins lucrativos,50,MS,Centro-Oeste
+918,FCSAC,Privada com fins lucrativos,41,PR,Sul
+922,FCGD,Privada sem fins lucrativos,35,SP,Sudeste
+923,FACCSR,Privada sem fins lucrativos,35,SP,Sudeste
+939,CATÓLICA DE ANÁPOLIS,Privada sem fins lucrativos,52,GO,Centro-Oeste
+940,FAMAG,Privada sem fins lucrativos,50,MS,Centro-Oeste
+944,ESPM,Privada sem fins lucrativos,33,RJ,Sudeste
+945,INCISOH,Privada sem fins lucrativos,31,MG,Sudeste
+952,UNISANTA,Privada sem fins lucrativos,35,SP,Sudeste
+953,UNIMES,Privada sem fins lucrativos,35,SP,Sudeste
+967,FATEC/TQ,Pública Estadual,35,SP,Sudeste
+976,FIP,Privada sem fins lucrativos,50,MS,Centro-Oeste
+983,FPM,Privada com fins lucrativos,35,SP,Sudeste
+985,FACER,Privada com fins lucrativos,52,GO,Centro-Oeste
+989,ESMA,Privada sem fins lucrativos,31,MG,Sudeste
+991,SENAI-CETIQT,Privada sem fins lucrativos,33,RJ,Sudeste
+994,FDC,Privada sem fins lucrativos,33,RJ,Sudeste
+1012,FAFOPAI,Pública Municipal,26,PE,Nordeste
+1013,FASUP,Privada sem fins lucrativos,35,SP,Sudeste
+1014,BOM JESUS/IELUSC,Privada sem fins lucrativos,42,SC,Sul
+1019,FACTU,Privada sem fins lucrativos,31,MG,Sudeste
+1021,FACET,Privada sem fins lucrativos,26,PE,Nordeste
+1027,UENF,Pública Estadual,33,RJ,Sudeste
+1028,UEMS,Pública Estadual,50,MS,Centro-Oeste
+1030,FACULDADES IBMEC,Privada com fins lucrativos,33,RJ,Sudeste
+1032,UNISAL,Privada sem fins lucrativos,35,SP,Sudeste
+1034,UNESF,Privada sem fins lucrativos,26,PE,Nordeste
+1036,UEMG,Pública Estadual,31,MG,Sudeste
+1038,AEMS,Privada sem fins lucrativos,50,MS,Centro-Oeste
+1041,UNIVATES,Privada sem fins lucrativos,43,RS,Sul
+1042,UP,Privada com fins lucrativos,41,PR,Sul
+1043,UNIARARAS,Privada sem fins lucrativos,35,SP,Sudeste
+1045,UNIFIAN,Privada com fins lucrativos,35,SP,Sudeste
+1046,UNILAGO,Privada sem fins lucrativos,35,SP,Sudeste
+1048,FCE,Privada com fins lucrativos,35,SP,Sudeste
+1049,CESF,Privada sem fins lucrativos,13,AM,Norte
+1051,SEUNE,Privada com fins lucrativos,27,AL,Nordeste
+1053,FTC,Privada com fins lucrativos,29,BA,Nordeste
+1055,FMN SALVADOR,Privada com fins lucrativos,29,BA,Nordeste
+1059,FLF,Privada sem fins lucrativos,23,CE,Nordeste
+1060,IESB,Privada com fins lucrativos,53,DF,Centro-Oeste
+1063,DOCTUM,Privada sem fins lucrativos,32,ES,Sudeste
+1064,DOCTUM,Privada sem fins lucrativos,32,ES,Sudeste
+1066,IEPO,Privada sem fins lucrativos,17,TO,Norte
+1067,FAJ,Privada com fins lucrativos,52,GO,Centro-Oeste
+1068,FAMA,Privada sem fins lucrativos,31,MG,Sudeste
+1071,IESF,Privada sem fins lucrativos,50,MS,Centro-Oeste
+1072,FAFI,Privada com fins lucrativos,51,MT,Centro-Oeste
+1075,IESP,Privada com fins lucrativos,25,PB,Nordeste
+1078,CEI,Privada com fins lucrativos,41,PR,Sul
+1079,CESPAR,Privada sem fins lucrativos,41,PR,Sul
+1080,FASE,Privada sem fins lucrativos,33,RJ,Sudeste
+1081,FER,Privada sem fins lucrativos,33,RJ,Sudeste
+1084,FACEBG,Privada sem fins lucrativos,43,RS,Sul
+1085,FAMES,Privada sem fins lucrativos,43,RS,Sul
+1086,FAEC,Privada sem fins lucrativos,11,RO,Norte
+1090,FSLF,Privada com fins lucrativos,28,SE,Nordeste
+1092,FIB,Privada com fins lucrativos,35,SP,Sudeste
+1096,FAPE,Privada sem fins lucrativos,35,SP,Sudeste
+1097,FISP,Privada com fins lucrativos,35,SP,Sudeste
+1099,FECG-SP,Privada sem fins lucrativos,35,SP,Sudeste
+1100,FCDA,Privada sem fins lucrativos,35,SP,Sudeste
+1113,UNIEURO,Privada sem fins lucrativos,53,DF,Centro-Oeste
+1115,CEST,Privada sem fins lucrativos,21,MA,Nordeste
+1118,FAIMI,Privada com fins lucrativos,35,SP,Sudeste
+1123,IESUS,Privada com fins lucrativos,29,BA,Nordeste
+1124,IESUB,Privada com fins lucrativos,29,BA,Nordeste
+1125,FIES,Privada sem fins lucrativos,41,PR,Sul
+1126,UNICENTRO,Pública Estadual,41,PR,Sul
+1128,UI,Privada sem fins lucrativos,31,MG,Sudeste
+1129,UNORP,Privada sem fins lucrativos,35,SP,Sudeste
+1130,METODISTA,Privada sem fins lucrativos,35,SP,Sudeste
+1131,FSA,Privada com fins lucrativos,22,PI,Nordeste
+1136,FACIG,Privada sem fins lucrativos,26,PE,Nordeste
+1139,FEAD - MG,Privada com fins lucrativos,31,MG,Sudeste
+1141,FGS,Privada sem fins lucrativos,33,RJ,Sudeste
+1142,FDV,Privada com fins lucrativos,32,ES,Sudeste
+1143,FACET,Privada sem fins lucrativos,26,PE,Nordeste
+1144,IMENSU,Privada sem fins lucrativos,35,SP,Sudeste
+1149,CEUNSP,Privada com fins lucrativos,35,SP,Sudeste
+1150,SP SENAI,Privada sem fins lucrativos,35,SP,Sudeste
+1151,FANESE,Privada com fins lucrativos,28,SE,Nordeste
+1153,UCAM,Privada sem fins lucrativos,33,RJ,Sudeste
+1155,FSST,Privada sem fins lucrativos,50,MS,Centro-Oeste
+1156,FACNEC,Privada sem fins lucrativos,33,RJ,Sudeste
+1157,ESFA,Privada sem fins lucrativos,32,ES,Sudeste
+1159,CESV,Privada com fins lucrativos,32,ES,Sudeste
+1160,CAMBURY,Privada com fins lucrativos,52,GO,Centro-Oeste
+1161,INSPER,Privada sem fins lucrativos,35,SP,Sudeste
+1162,FAF,Privada sem fins lucrativos,51,MT,Centro-Oeste
+1170,FAMEC,Privada sem fins lucrativos,29,BA,Nordeste
+1173,FAB,Privada com fins lucrativos,53,DF,Centro-Oeste
+1174,SOECS,Privada sem fins lucrativos,31,MG,Sudeste
+1175,ESTÁCIO FARGS,Privada sem fins lucrativos,43,RS,Sul
+1182,IESA,Privada sem fins lucrativos,35,SP,Sudeste
+1185,UNIJORGE,Privada com fins lucrativos,29,BA,Nordeste
+1187,MÓDULO,Privada com fins lucrativos,35,SP,Sudeste
+1189,UNIPLAC,Privada sem fins lucrativos,42,SC,Sul
+1190,F.I.C.,Privada sem fins lucrativos,35,SP,Sudeste
+1191,IESF,Privada sem fins lucrativos,23,CE,Nordeste
+1192,FACIS,Privada com fins lucrativos,35,SP,Sudeste
+1194,FATEP,Privada com fins lucrativos,50,MS,Centro-Oeste
+1195,SENAI,Privada sem fins lucrativos,35,SP,Sudeste
+1196,UNICESUMAR,Privada com fins lucrativos,41,PR,Sul
+1198,FACET,Privada com fins lucrativos,41,PR,Sul
+1201,FAMC,Privada sem fins lucrativos,31,MG,Sudeste
+1202,FASAR,Privada com fins lucrativos,31,MG,Sudeste
+1204,FIAMA,Privada sem fins lucrativos,50,MS,Centro-Oeste
+1205,FAEL,Privada com fins lucrativos,41,PR,Sul
+1212,FCCA,Privada sem fins lucrativos,35,SP,Sudeste
+1213,SEF,Privada sem fins lucrativos,35,SP,Sudeste
+1219,IIES,Privada sem fins lucrativos,35,SP,Sudeste
+1224,UNIJALES,Privada sem fins lucrativos,35,SP,Sudeste
+1226,IESACRE,Privada com fins lucrativos,12,AC,Norte
+1227,FASB,Privada sem fins lucrativos,29,BA,Nordeste
+1230,UNIPINHAL,Privada sem fins lucrativos,35,SP,Sudeste
+1231,CNEC/IESA,Privada sem fins lucrativos,43,RS,Sul
+1232,UNIANDRADE,Privada sem fins lucrativos,41,PR,Sul
+1233,UNIRONDON,Privada sem fins lucrativos,51,MT,Centro-Oeste
+1237,FANAP,Privada sem fins lucrativos,52,GO,Centro-Oeste
+1239,PADRAO,Privada com fins lucrativos,52,GO,Centro-Oeste
+1240,PIO XII,Privada sem fins lucrativos,32,ES,Sudeste
+1243,DOCTUM,Privada sem fins lucrativos,32,ES,Sudeste
+1244,MULTIVIX VITÓRIA,Privada com fins lucrativos,32,ES,Sudeste
+1245,Multivix Castelo,Privada com fins lucrativos,32,ES,Sudeste
+1246,FCMV,Privada sem fins lucrativos,32,ES,Sudeste
+1247,FACINAN,Privada sem fins lucrativos,50,MS,Centro-Oeste
+1248,ANAEC,Privada sem fins lucrativos,50,MS,Centro-Oeste
+1249,FECRA,Privada com fins lucrativos,50,MS,Centro-Oeste
+1252,PROMOVE,Privada sem fins lucrativos,31,MG,Sudeste
+1253,FMG,Privada sem fins lucrativos,31,MG,Sudeste
+1254,FAI,Privada sem fins lucrativos,31,MG,Sudeste
+1255,FBV,Privada com fins lucrativos,26,PE,Nordeste
+1256,DOM BOSCO,Privada com fins lucrativos,41,PR,Sul
+1263,FABA,Privada com fins lucrativos,33,RJ,Sudeste
+1264,UNI-RN,Privada sem fins lucrativos,24,RN,Nordeste
+1266,FIU,Privada sem fins lucrativos,35,SP,Sudeste
+1267,IESGF,Privada sem fins lucrativos,42,SC,Sul
+1270,ESTÁCIO RIBEIRĂO PRE,Privada com fins lucrativos,35,SP,Sudeste
+1272,FASAS,Privada sem fins lucrativos,35,SP,Sudeste
+1273,FACCAMP,Privada com fins lucrativos,35,SP,Sudeste
+1275,FAGU,Privada sem fins lucrativos,35,SP,Sudeste
+1276,I.T.E.S.,Privada sem fins lucrativos,35,SP,Sudeste
+1279,FACITA,Privada com fins lucrativos,35,SP,Sudeste
+1281,FAIT,Privada com fins lucrativos,35,SP,Sudeste
+1286,SENAI,Privada sem fins lucrativos,35,SP,Sudeste
+1289,FAD-FAAP,Privada sem fins lucrativos,35,SP,Sudeste
+1290,FAATESP,Privada com fins lucrativos,35,SP,Sudeste
+1291,FANORPI,Privada com fins lucrativos,41,PR,Sul
+1294,FAM,Privada com fins lucrativos,35,SP,Sudeste
+1296,ESM,Privada sem fins lucrativos,26,PE,Nordeste
+1299,FIFE,Privada sem fins lucrativos,35,SP,Sudeste
+1300,ITES,Privada sem fins lucrativos,35,SP,Sudeste
+1301,IMMES,Privada sem fins lucrativos,35,SP,Sudeste
+1302,FBB,Privada sem fins lucrativos,29,BA,Nordeste
+1304,FIRP,Privada sem fins lucrativos,35,SP,Sudeste
+1307,FAEF,Privada com fins lucrativos,35,SP,Sudeste
+1308,FNM,Privada com fins lucrativos,32,ES,Sudeste
+1309,FAPRO,Privada sem fins lucrativos,53,DF,Centro-Oeste
+1310,FAM,Privada sem fins lucrativos,35,SP,Sudeste
+1311,TREVISAN,Privada com fins lucrativos,35,SP,Sudeste
+1312,FAIR,Privada com fins lucrativos,51,MT,Centro-Oeste
+1313,UNISUZ,Privada sem fins lucrativos,35,SP,Sudeste
+1314,IJAA,Privada com fins lucrativos,31,MG,Sudeste
+1315,FASE,Privada sem fins lucrativos,32,ES,Sudeste
+1317,FSP,Privada com fins lucrativos,35,SP,Sudeste
+1318,FMN,Privada com fins lucrativos,29,BA,Nordeste
+1319,FATEC,Privada com fins lucrativos,31,MG,Sudeste
+1322,EDUVALE,Privada sem fins lucrativos,35,SP,Sudeste
+1324,FILC,Privada sem fins lucrativos,33,RJ,Sudeste
+1325,FAP,Privada sem fins lucrativos,41,PR,Sul
+1327,ESPM - POA,Privada sem fins lucrativos,43,RS,Sul
+1328,FACOTTUR,Privada sem fins lucrativos,26,PE,Nordeste
+1330,COTEMIG,Privada com fins lucrativos,31,MG,Sudeste
+1333,CECAP,Privada sem fins lucrativos,53,DF,Centro-Oeste
+1334,FACISA,Privada com fins lucrativos,25,PB,Nordeste
+1336,FAG,Privada sem fins lucrativos,41,PR,Sul
+1337,FMD,Privada com fins lucrativos,41,PR,Sul
+1342,DOCTUM,Privada sem fins lucrativos,32,ES,Sudeste
+1344,FBM,Privada com fins lucrativos,42,SC,Sul
+1345,FIZO,Privada com fins lucrativos,35,SP,Sudeste
+1346,FBMG,Privada sem fins lucrativos,31,MG,Sudeste
+1350,FVJ,Privada com fins lucrativos,23,CE,Nordeste
+1353,IESG,Privada com fins lucrativos,35,SP,Sudeste
+1355,FIJ,Privada sem fins lucrativos,35,SP,Sudeste
+1357,ISERJ,Pública Estadual,33,RJ,Sudeste
+1360,FSG,Privada com fins lucrativos,22,PI,Nordeste
+1362,FAGOC,Privada com fins lucrativos,31,MG,Sudeste
+1363,FAVIC,Privada sem fins lucrativos,29,BA,Nordeste
+1364,FTC,Privada com fins lucrativos,29,BA,Nordeste
+1365,UNASP,Privada sem fins lucrativos,35,SP,Sudeste
+1366,FB-SI,Privada sem fins lucrativos,42,SC,Sul
+1371,FAM,Privada sem fins lucrativos,35,SP,Sudeste
+1373,FACAB,Privada com fins lucrativos,35,SP,Sudeste
+1374,FCSGN,Privada sem fins lucrativos,51,MT,Centro-Oeste
+1375,FCARP,Privada sem fins lucrativos,51,MT,Centro-Oeste
+1379,FAESA,Privada sem fins lucrativos,32,ES,Sudeste
+1381,FMF,Privada com fins lucrativos,13,AM,Norte
+1382,EST,Privada sem fins lucrativos,43,RS,Sul
+1384,FSH,Privada sem fins lucrativos,26,PE,Nordeste
+1385,FIPEP,Privada sem fins lucrativos,35,SP,Sudeste
+1386,ESAMC,Privada com fins lucrativos,35,SP,Sudeste
+1387,FAPEN,Privada com fins lucrativos,35,SP,Sudeste
+1388,ISES,Privada com fins lucrativos,35,SP,Sudeste
+1394,FCA,Privada com fins lucrativos,29,BA,Nordeste
+1395,UNICALDAS,Privada com fins lucrativos,52,GO,Centro-Oeste
+1396,UDC,Privada com fins lucrativos,41,PR,Sul
+1400,FAIND/SJP,Privada com fins lucrativos,41,PR,Sul
+1402,ICSH,Privada sem fins lucrativos,52,GO,Centro-Oeste
+1403,FAP,Privada com fins lucrativos,11,RO,Norte
+1404,FAP,Privada com fins lucrativos,52,GO,Centro-Oeste
+1409,UCL,Privada sem fins lucrativos,32,ES,Sudeste
+1410,ÁREA1,Privada com fins lucrativos,29,BA,Nordeste
+1411,F2J,Privada sem fins lucrativos,29,BA,Nordeste
+1413,CESPRI,Privada sem fins lucrativos,35,SP,Sudeste
+1414,FSL,Privada com fins lucrativos,11,RO,Norte
+1418,UNITOLEDO,Privada com fins lucrativos,35,SP,Sudeste
+1419,UNICURITIBA,Privada com fins lucrativos,41,PR,Sul
+1422,UNINORTE,Privada com fins lucrativos,13,AM,Norte
+1423,FACI,Privada com fins lucrativos,15,PA,Norte
+1425,FACE,Privada com fins lucrativos,23,CE,Nordeste
+1426,ILES,Privada sem fins lucrativos,52,GO,Centro-Oeste
+1427,FSG,Privada com fins lucrativos,43,RS,Sul
+1428,IESPLAN,Privada com fins lucrativos,53,DF,Centro-Oeste
+1429,FABAT,Privada sem fins lucrativos,33,RJ,Sudeste
+1432,FABE,Privada sem fins lucrativos,35,SP,Sudeste
+1433,FACOL,Privada sem fins lucrativos,35,SP,Sudeste
+1434,IESI,Privada sem fins lucrativos,35,SP,Sudeste
+1436,ESBAM,Privada com fins lucrativos,13,AM,Norte
+1437,ESRC,Privada com fins lucrativos,35,SP,Sudeste
+1438,FACAMP,Privada com fins lucrativos,35,SP,Sudeste
+1439,FACAMP,Privada com fins lucrativos,35,SP,Sudeste
+1440,IAESUP,Privada com fins lucrativos,52,GO,Centro-Oeste
+1441,FATEPI,Privada com fins lucrativos,22,PI,Nordeste
+1443,FINAC,Privada com fins lucrativos,32,ES,Sudeste
+1444,FIEL,Privada sem fins lucrativos,35,SP,Sudeste
+1445,CEUN-IMT,Privada sem fins lucrativos,35,SP,Sudeste
+1446,UNIPLAN,Privada sem fins lucrativos,53,DF,Centro-Oeste
+1450,UNICERP,Privada sem fins lucrativos,31,MG,Sudeste
+1453,FACNORTE,Privada com fins lucrativos,41,PR,Sul
+1454,FASNE,Privada sem fins lucrativos,26,PE,Nordeste
+1455,FSSS,Privada sem fins lucrativos,29,BA,Nordeste
+1456,FASERT,Privada com fins lucrativos,35,SP,Sudeste
+1459,FUCAMP,Privada sem fins lucrativos,31,MG,Sudeste
+1461,FTC SALVADOR,Privada com fins lucrativos,29,BA,Nordeste
+1462,INPER,Privada sem fins lucrativos,25,PB,Nordeste
+1463,FCGB,Privada sem fins lucrativos,35,SP,Sudeste
+1464,HSM,Privada com fins lucrativos,35,SP,Sudeste
+1465,AFARP,Privada com fins lucrativos,35,SP,Sudeste
+1467,FACEVV,Privada sem fins lucrativos,32,ES,Sudeste
+1468,ESAMC,Privada com fins lucrativos,31,MG,Sudeste
+1472,UNIASSELVI,Privada com fins lucrativos,42,SC,Sul
+1477,MICHELANGELO,Privada sem fins lucrativos,53,DF,Centro-Oeste
+1478,FASBC,Privada com fins lucrativos,35,SP,Sudeste
+1484,IBMEC,Privada com fins lucrativos,31,MG,Sudeste
+1486,FESV,Privada com fins lucrativos,32,ES,Sudeste
+1487,FDB,Privada com fins lucrativos,41,PR,Sul
+1488,FAP,Privada com fins lucrativos,33,RJ,Sudeste
+1490,FAJ,Privada com fins lucrativos,35,SP,Sudeste
+1491,UNINTER,Privada com fins lucrativos,41,PR,Sul
+1492,PIT UBERLÂNDIA,Privada com fins lucrativos,31,MG,Sudeste
+1493,ALFA,Privada com fins lucrativos,52,GO,Centro-Oeste
+1496,FESVV,Privada com fins lucrativos,32,ES,Sudeste
+1497,FASC,Privada sem fins lucrativos,35,SP,Sudeste
+1498,FAVI,Privada sem fins lucrativos,32,ES,Sudeste
+1499,FATS,Privada com fins lucrativos,35,SP,Sudeste
+1500,FAESI,Privada com fins lucrativos,41,PR,Sul
+1501,FLATED,Privada sem fins lucrativos,23,CE,Nordeste
+1503,FALEC,Privada sem fins lucrativos,41,PR,Sul
+1506,IFES,Privada sem fins lucrativos,42,SC,Sul
+1507,FACEB,Privada sem fins lucrativos,53,DF,Centro-Oeste
+1509,ESTÁCIO BH,Privada com fins lucrativos,31,MG,Sudeste
+1513,ICF,Privada com fins lucrativos,22,PI,Nordeste
+1514,F.V.C.,Privada com fins lucrativos,32,ES,Sudeste
+1515,UNIRON,Privada com fins lucrativos,11,RO,Norte
+1516,FV,Privada sem fins lucrativos,35,SP,Sudeste
+1519,FADEP,Privada com fins lucrativos,41,PR,Sul
+1520,FFIA,Privada sem fins lucrativos,35,SP,Sudeste
+1521,ESTÁCIO BELÉM,Privada com fins lucrativos,15,PA,Norte
+1523,CESUL,Privada com fins lucrativos,41,PR,Sul
+1524,FAMETTIG,Privada com fins lucrativos,29,BA,Nordeste
+1526,SENAI,Privada sem fins lucrativos,35,SP,Sudeste
+1530,FCJ,Privada sem fins lucrativos,42,SC,Sul
+1535,FAPI,Privada sem fins lucrativos,41,PR,Sul
+1536,FATEB,Privada com fins lucrativos,41,PR,Sul
+1538,FAPRO,Privada com fins lucrativos,53,DF,Centro-Oeste
+1539,FIB,Pública Municipal,32,ES,Sudeste
+1540,IESUR,Privada sem fins lucrativos,11,RO,Norte
+1542,UGB,Privada sem fins lucrativos,33,RJ,Sudeste
+1544,FADEC,Privada com fins lucrativos,42,SC,Sul
+1545,FIB,Privada sem fins lucrativos,35,SP,Sudeste
+1546,FAESF,Privada sem fins lucrativos,21,MA,Nordeste
+1550,FEPI,Privada sem fins lucrativos,41,PR,Sul
+1552,FAP,Privada com fins lucrativos,22,PI,Nordeste
+1556,FA7,Privada com fins lucrativos,23,CE,Nordeste
+1557,FUMEC,Privada sem fins lucrativos,31,MG,Sudeste
+1558,DOCTUM,Privada sem fins lucrativos,31,MG,Sudeste
+1559,UNESC,Privada sem fins lucrativos,32,ES,Sudeste
+1561,ESAMC,Privada com fins lucrativos,35,SP,Sudeste
+1564,FASF,Privada com fins lucrativos,33,RJ,Sudeste
+1565,FCJ,Privada com fins lucrativos,29,BA,Nordeste
+1568,FIC,Privada sem fins lucrativos,31,MG,Sudeste
+1569,FIAR,Privada sem fins lucrativos,35,SP,Sudeste
+1571,FCS,Privada com fins lucrativos,29,BA,Nordeste
+1572,FACISA,Privada com fins lucrativos,29,BA,Nordeste
+1573,FAN,Privada sem fins lucrativos,52,GO,Centro-Oeste
+1574,FACEMED,Privada com fins lucrativos,41,PR,Sul
+1575,UNIARAXÁ,Privada sem fins lucrativos,31,MG,Sudeste
+1576,FASERRA,Privada sem fins lucrativos,32,ES,Sudeste
+1577,FACINOR,Privada sem fins lucrativos,41,PR,Sul
+1580,FACESA,Privada com fins lucrativos,52,GO,Centro-Oeste
+1581,FACSAL,Privada sem fins lucrativos,31,MG,Sudeste
+1582,FJN JANGA,Privada com fins lucrativos,26,PE,Nordeste
+1583,FATEC-ID,Pública Estadual,35,SP,Sudeste
+1584,FATEC GT,Pública Estadual,35,SP,Sudeste
+1585,FEAN,Privada com fins lucrativos,42,SC,Sul
+1586,UNIVÁS,Privada sem fins lucrativos,31,MG,Sudeste
+1587,FITS,Privada com fins lucrativos,51,MT,Centro-Oeste
+1590,ESTÁCIO SĂO LUÍS,Privada com fins lucrativos,21,MA,Nordeste
+1591,ESTÁCIO MACAPÁ,Privada sem fins lucrativos,16,AP,Norte
+1592,FOM,Privada sem fins lucrativos,13,AM,Norte
+1596,UNIVES,Privada com fins lucrativos,32,ES,Sudeste
+1597,CESSF,Privada com fins lucrativos,21,MA,Nordeste
+1598,FPU,Privada com fins lucrativos,31,MG,Sudeste
+1599,IPTAN,Privada com fins lucrativos,31,MG,Sudeste
+1600,ICS,Privada sem fins lucrativos,31,MG,Sudeste
+1601,FCC,Privada sem fins lucrativos,31,MG,Sudeste
+1605,FANOVA,Privada sem fins lucrativos,50,MS,Centro-Oeste
+1606,FIC,Privada com fins lucrativos,50,MS,Centro-Oeste
+1607,FALSM,Privada sem fins lucrativos,43,RS,Sul
+1609,FCP,Privada com fins lucrativos,22,PI,Nordeste
+1610,FAETE,Privada sem fins lucrativos,22,PI,Nordeste
+1611,FATI,Privada com fins lucrativos,41,PR,Sul
+1612,FASUL,Privada com fins lucrativos,41,PR,Sul
+1613,IAP,Privada sem fins lucrativos,41,PR,Sul
+1614,FAAST,Privada sem fins lucrativos,41,PR,Sul
+1615,ISULPAR,Privada sem fins lucrativos,41,PR,Sul
+1616,FAV,Privada sem fins lucrativos,33,RJ,Sudeste
+1618,IBES,Privada com fins lucrativos,42,SC,Sul
+1619,FAER,Privada com fins lucrativos,35,SP,Sudeste
+1620,FASAR,Privada com fins lucrativos,35,SP,Sudeste
+1621,NWK,Privada com fins lucrativos,35,SP,Sudeste
+1622,FIP,Privada sem fins lucrativos,35,SP,Sudeste
+1623,FCAA,Privada sem fins lucrativos,35,SP,Sudeste
+1624,FMR,Privada sem fins lucrativos,35,SP,Sudeste
+1636,CASTELLI ESH,Privada com fins lucrativos,43,RS,Sul
+1637,FAMA,Privada com fins lucrativos,27,AL,Nordeste
+1638,IAES,Privada com fins lucrativos,13,AM,Norte
+1639,FHR,Privada com fins lucrativos,29,BA,Nordeste
+1640,FACULDADE AGES,Privada com fins lucrativos,29,BA,Nordeste
+1641,FSBA,Privada sem fins lucrativos,29,BA,Nordeste
+1642,FTC,Privada com fins lucrativos,29,BA,Nordeste
+1643,FAT,Privada com fins lucrativos,29,BA,Nordeste
+1644,FEC,Privada com fins lucrativos,29,BA,Nordeste
+1645,FTC,Privada com fins lucrativos,29,BA,Nordeste
+1646,FECIPAR,Privada sem fins lucrativos,17,TO,Norte
+1647,FAECE,Privada sem fins lucrativos,23,CE,Nordeste
+1653,FACEC,Privada sem fins lucrativos,32,ES,Sudeste
+1655,FCSL,Privada sem fins lucrativos,31,MG,Sudeste
+1656,IEST,Privada sem fins lucrativos,22,PI,Nordeste
+1657,FAED,Privada com fins lucrativos,41,PR,Sul
+1658,FGF,Privada com fins lucrativos,23,CE,Nordeste
+1659,FAESO,Privada com fins lucrativos,35,SP,Sudeste
+1660,ESTÁCIO BRASÍLIA,Privada com fins lucrativos,53,DF,Centro-Oeste
+1661,FAPRO,Privada sem fins lucrativos,53,DF,Centro-Oeste
+1662,DOCTUM,Privada sem fins lucrativos,32,ES,Sudeste
+1663,FARA,Privada com fins lucrativos,52,GO,Centro-Oeste
+1664,FASEH,Privada com fins lucrativos,31,MG,Sudeste
+1665,FK,Privada com fins lucrativos,31,MG,Sudeste
+1666,NOVOS HORIZONTES,Privada com fins lucrativos,31,MG,Sudeste
+1669,IMES,Privada com fins lucrativos,31,MG,Sudeste
+1670,IECEMB - FAB,Privada com fins lucrativos,31,MG,Sudeste
+1672,IESPES,Privada sem fins lucrativos,15,PA,Norte
+1675,UNESJ,Privada sem fins lucrativos,26,PE,Nordeste
+1676,FACULDADE SĂO MIGUEL,Privada com fins lucrativos,26,PE,Nordeste
+1677,FAESPI,Privada com fins lucrativos,22,PI,Nordeste
+1678,FACIBRA,Privada com fins lucrativos,41,PR,Sul
+1679,FACSUL,Privada com fins lucrativos,41,PR,Sul
+1680,MATER CHRISTI,Privada com fins lucrativos,24,RN,Nordeste
+1681,FACULDADES IBMEC,Privada com fins lucrativos,33,RJ,Sudeste
+1682,FSMA,Privada sem fins lucrativos,33,RJ,Sudeste
+1683,FAP,Privada com fins lucrativos,22,PI,Nordeste
+1685,FB-CC,Privada com fins lucrativos,42,SC,Sul
+1686,FB-AA,Privada com fins lucrativos,42,SC,Sul
+1689,FIESI,Privada com fins lucrativos,35,SP,Sudeste
+1690,FSV,Privada com fins lucrativos,35,SP,Sudeste
+1692,ESPF,Privada com fins lucrativos,35,SP,Sudeste
+1693,FAITA,Privada com fins lucrativos,35,SP,Sudeste
+1694,ESUCRI,Privada com fins lucrativos,42,SC,Sul
+1695,FACEB,Privada sem fins lucrativos,31,MG,Sudeste
+1696,FACEC,Privada com fins lucrativos,52,GO,Centro-Oeste
+1699,UNICENTRO,Privada sem fins lucrativos,11,RO,Norte
+1700,FSLMG,Privada sem fins lucrativos,31,MG,Sudeste
+1701,FAMA,Privada sem fins lucrativos,33,RJ,Sudeste
+1702,ESTÁCIO AMAZÔNIA,Privada com fins lucrativos,14,RR,Norte
+1703,IESRIVER,Privada sem fins lucrativos,52,GO,Centro-Oeste
+1706,FACIR,Privada sem fins lucrativos,26,PE,Nordeste
+1707,FACCOR,Privada sem fins lucrativos,26,PE,Nordeste
+1708,IPESU,Privada sem fins lucrativos,26,PE,Nordeste
+1709,FACIPE,Privada com fins lucrativos,26,PE,Nordeste
+1710,FACNET,Privada com fins lucrativos,53,DF,Centro-Oeste
+1711,FAPEPE,Privada sem fins lucrativos,35,SP,Sudeste
+1712,FACET,Privada com fins lucrativos,22,PI,Nordeste
+1713,FATEF,Privada com fins lucrativos,35,SP,Sudeste
+1714,ESIC,Privada sem fins lucrativos,41,PR,Sul
+1717,FACIMP,Privada com fins lucrativos,21,MA,Nordeste
+1718,FAN,Privada com fins lucrativos,29,BA,Nordeste
+1720,FAMIG,Privada com fins lucrativos,31,MG,Sudeste
+1721,FDV,Privada com fins lucrativos,31,MG,Sudeste
+1722,FIP,Privada com fins lucrativos,11,RO,Norte
+1724,FAG,Privada sem fins lucrativos,35,SP,Sudeste
+1725,FAQ,Privada com fins lucrativos,35,SP,Sudeste
+1726,SECAL,Privada com fins lucrativos,41,PR,Sul
+1727,FAC DE CARIACICA,Privada com fins lucrativos,32,ES,Sudeste
+1728,UNIRON,Privada com fins lucrativos,11,RO,Norte
+1732,FGP,Privada com fins lucrativos,35,SP,Sudeste
+1733,ISEPE  RONDON,Privada com fins lucrativos,41,PR,Sul
+1734,FACID,Privada com fins lucrativos,22,PI,Nordeste
+1735,FLS,Privada com fins lucrativos,23,CE,Nordeste
+1736,UNILASALLE/RJ,Privada sem fins lucrativos,33,RJ,Sudeste
+1738,ULBRA ILES,Privada sem fins lucrativos,11,RO,Norte
+1739,IMP,Privada sem fins lucrativos,53,DF,Centro-Oeste
+1742,CSET DRUMMOND,Privada com fins lucrativos,35,SP,Sudeste
+1743,FATEC OSWALDO CRUZ,Privada com fins lucrativos,35,SP,Sudeste
+1745,FAATESP,Privada com fins lucrativos,35,SP,Sudeste
+1749,FALUB,Privada sem fins lucrativos,26,PE,Nordeste
+1752,FADISP,Privada com fins lucrativos,35,SP,Sudeste
+1753,FACENE,Privada com fins lucrativos,25,PB,Nordeste
+1756,FAB,Privada sem fins lucrativos,35,SP,Sudeste
+1758,FAINOR,Privada com fins lucrativos,29,BA,Nordeste
+1759,FACULDADE BAGOZZI,Privada sem fins lucrativos,41,PR,Sul
+1762,FTNCDA,Privada com fins lucrativos,35,SP,Sudeste
+1763,SENAI,Privada sem fins lucrativos,42,SC,Sul
+1765,FJB,Privada sem fins lucrativos,35,SP,Sudeste
+1766,UNICAPE,Privada sem fins lucrativos,32,ES,Sudeste
+1772,FANOR,Privada com fins lucrativos,23,CE,Nordeste
+1773,SEI/FAI,Privada com fins lucrativos,42,SC,Sul
+1774,UNIĂO,Privada com fins lucrativos,41,PR,Sul
+1775,UNIFAVIP,Privada com fins lucrativos,26,PE,Nordeste
+1776,FATJ,Privada com fins lucrativos,35,SP,Sudeste
+1777,FAMEG,Privada com fins lucrativos,42,SC,Sul
+1779,AIEC / FAAB,Privada com fins lucrativos,53,DF,Centro-Oeste
+1780,FAHOR,Privada sem fins lucrativos,43,RS,Sul
+1781,INTESP,Privada sem fins lucrativos,35,SP,Sudeste
+1783,FACISA - CELER,Privada com fins lucrativos,42,SC,Sul
+1784,Fasc,Privada com fins lucrativos,35,SP,Sudeste
+1785,FACIDER,Privada sem fins lucrativos,51,MT,Centro-Oeste
+1786,IMES,Privada sem fins lucrativos,31,MG,Sudeste
+1788,FAAL,Privada com fins lucrativos,35,SP,Sudeste
+1789,ICES,Privada sem fins lucrativos,41,PR,Sul
+1790,FASB,Privada sem fins lucrativos,29,BA,Nordeste
+1797,UNINORTE,Privada com fins lucrativos,41,PR,Sul
+1798,FACED,Privada com fins lucrativos,41,PR,Sul
+1800,CESREAL,Privada sem fins lucrativos,41,PR,Sul
+1801,DOM BOSCO UBIRATĂ,Privada sem fins lucrativos,41,PR,Sul
+1803,FATEC,Privada sem fins lucrativos,26,PE,Nordeste
+1804,FAMA,Privada sem fins lucrativos,35,SP,Sudeste
+1805,FG,Privada com fins lucrativos,26,PE,Nordeste
+1806,FAFE,Privada com fins lucrativos,35,SP,Sudeste
+1815,FIBRA,Privada com fins lucrativos,52,GO,Centro-Oeste
+1816,IESB,Privada com fins lucrativos,35,SP,Sudeste
+1818,FPAS,Privada com fins lucrativos,31,MG,Sudeste
+1819,FFB,Privada com fins lucrativos,23,CE,Nordeste
+1821,FAC-LIONS,Privada sem fins lucrativos,52,GO,Centro-Oeste
+1822,FASAM,Privada com fins lucrativos,52,GO,Centro-Oeste
+1825,FEAD,Privada com fins lucrativos,31,MG,Sudeste
+1827,FLT,Privada sem fins lucrativos,42,SC,Sul
+1828,ESCOLA DA CIDADE,Privada sem fins lucrativos,35,SP,Sudeste
+1831,CESI,Privada sem fins lucrativos,35,SP,Sudeste
+1832,FAJAB,Privada sem fins lucrativos,35,SP,Sudeste
+1834,FAAG,Privada sem fins lucrativos,35,SP,Sudeste
+1835,FIESC,Pública Municipal,17,TO,Norte
+1836,UNIFEOB,Privada sem fins lucrativos,35,SP,Sudeste
+1837,ESUV,Privada com fins lucrativos,31,MG,Sudeste
+1838,FRB,Privada sem fins lucrativos,35,SP,Sudeste
+1839,FIAVEC,Privada sem fins lucrativos,51,MT,Centro-Oeste
+1840,FCB,Privada sem fins lucrativos,32,ES,Sudeste
+1841,TOLEDO PRUDENTE,Privada sem fins lucrativos,35,SP,Sudeste
+1842,FEMA,Privada sem fins lucrativos,43,RS,Sul
+1843,FACAMP,Privada sem fins lucrativos,31,MG,Sudeste
+1844,FISMA,Privada sem fins lucrativos,35,SP,Sudeste
+1846,UNILINS,Privada sem fins lucrativos,35,SP,Sudeste
+1850,FACULDADE ALVORADA,Privada sem fins lucrativos,41,PR,Sul
+1851,EBAPE,Privada sem fins lucrativos,33,RJ,Sudeste
+1852,SABERES,Privada com fins lucrativos,32,ES,Sudeste
+1853,IBTA,Privada com fins lucrativos,35,SP,Sudeste
+1854,CLARETIANORC,Privada sem fins lucrativos,35,SP,Sudeste
+1856,FACNOPAR,Privada sem fins lucrativos,41,PR,Sul
+1857,DEHONIANA,Privada sem fins lucrativos,35,SP,Sudeste
+1858,FAJ,Privada com fins lucrativos,29,BA,Nordeste
+1860,FAJANSSEN,Privada sem fins lucrativos,31,MG,Sudeste
+1862,FARESE,Privada com fins lucrativos,32,ES,Sudeste
+1863,INTERVALE,Privada com fins lucrativos,31,MG,Sudeste
+1864,FABE,Privada sem fins lucrativos,43,RS,Sul
+1865,ISEAP,Privada com fins lucrativos,35,SP,Sudeste
+1867,FACIG,Privada sem fins lucrativos,31,MG,Sudeste
+1868,ISESD,Privada sem fins lucrativos,31,MG,Sudeste
+1869,FEPI,Privada sem fins lucrativos,31,MG,Sudeste
+1870,FIRA,Pública Municipal,35,SP,Sudeste
+1872,FARESC,Privada sem fins lucrativos,41,PR,Sul
+1873,FAMERC,Privada sem fins lucrativos,33,RJ,Sudeste
+1874,FATEC,Pública Estadual,35,SP,Sudeste
+1876,FMPFM,Pública Municipal,35,SP,Sudeste
+1877,FAAT,Privada com fins lucrativos,16,AP,Norte
+1878,FEI,Privada sem fins lucrativos,35,SP,Sudeste
+1879,FACEAR,Privada com fins lucrativos,41,PR,Sul
+1880,FACE,Privada com fins lucrativos,32,ES,Sudeste
+1881,FAESC,Privada com fins lucrativos,26,PE,Nordeste
+1883,FAS,Privada com fins lucrativos,29,BA,Nordeste
+1884,FRAN,Privada com fins lucrativos,35,SP,Sudeste
+1885,UNDB,Privada com fins lucrativos,21,MA,Nordeste
+1886,FMA,Privada sem fins lucrativos,35,SP,Sudeste
+1887,DOCTUM,Privada sem fins lucrativos,32,ES,Sudeste
+1892,ENIAC,Privada com fins lucrativos,35,SP,Sudeste
+1893,FARB/UNIRB,Privada com fins lucrativos,29,BA,Nordeste
+1894,FEPAM,Privada com fins lucrativos,26,PE,Nordeste
+1895,UNICHRISTUS,Privada com fins lucrativos,23,CE,Nordeste
+1898,FALS,Privada com fins lucrativos,35,SP,Sudeste
+1899,FANP,Privada com fins lucrativos,41,PR,Sul
+1900,FAESP,Privada sem fins lucrativos,41,PR,Sul
+1901,FCU,Privada sem fins lucrativos,31,MG,Sudeste
+1902,FACSA,Privada com fins lucrativos,29,BA,Nordeste
+1903,FACCREI,Privada com fins lucrativos,41,PR,Sul
+1904,FASC,Privada sem fins lucrativos,33,RJ,Sudeste
+1906,IES-MATERDEI,Privada com fins lucrativos,13,AM,Norte
+1907,FAEC,Privada com fins lucrativos,41,PR,Sul
+1908,FABRA,Privada sem fins lucrativos,32,ES,Sudeste
+1909,FPF,Privada com fins lucrativos,31,MG,Sudeste
+1910,FABAC,Privada com fins lucrativos,29,BA,Nordeste
+1913,FAMINAS,Privada com fins lucrativos,31,MG,Sudeste
+1917,FACIMED,Privada com fins lucrativos,11,RO,Norte
+1918,FUCAP,Privada com fins lucrativos,42,SC,Sul
+1919,FACET,Privada com fins lucrativos,31,MG,Sudeste
+1921,FSB,Privada sem fins lucrativos,35,SP,Sudeste
+1923,FAJANSSEN,Privada sem fins lucrativos,31,MG,Sudeste
+1925,FACISA,Privada com fins lucrativos,31,MG,Sudeste
+1926,UNIPACAT,Privada sem fins lucrativos,31,MG,Sudeste
+1930,SINGULARIDADES/ISESP,Privada sem fins lucrativos,35,SP,Sudeste
+1931,IESF,Privada com fins lucrativos,21,MA,Nordeste
+1932,FAPAS,Privada sem fins lucrativos,43,RS,Sul
+1933,FABI,Privada sem fins lucrativos,35,SP,Sudeste
+1934,FASIP,Privada com fins lucrativos,51,MT,Centro-Oeste
+1937,FACESA,Privada sem fins lucrativos,29,BA,Nordeste
+1938,FGU,Privada com fins lucrativos,41,PR,Sul
+1939,INESUL,Privada com fins lucrativos,41,PR,Sul
+1940,FANS,Privada sem fins lucrativos,31,MG,Sudeste
+1941,FAUC,Privada com fins lucrativos,51,MT,Centro-Oeste
+1944,IBRATEC,Privada com fins lucrativos,26,PE,Nordeste
+1945,FAIS,Privada com fins lucrativos,51,MT,Centro-Oeste
+1946,FALEG,Privada com fins lucrativos,35,SP,Sudeste
+1948,FESP,Privada com fins lucrativos,25,PB,Nordeste
+1949,FACP,Privada com fins lucrativos,35,SP,Sudeste
+1950,FAO,Privada com fins lucrativos,35,SP,Sudeste
+1952,FACULDADES CATHEDRAL,Privada com fins lucrativos,51,MT,Centro-Oeste
+1956,IBESA,Privada sem fins lucrativos,27,AL,Nordeste
+1957,SENAI DE JOINVILLE,Privada sem fins lucrativos,42,SC,Sul
+1958,CET BLUMENAU,Privada sem fins lucrativos,42,SC,Sul
+1961,ITCSAS/CENSA,Privada sem fins lucrativos,33,RJ,Sudeste
+1962,ISECENSA,Privada sem fins lucrativos,33,RJ,Sudeste
+1966,FALBE,Privada com fins lucrativos,53,DF,Centro-Oeste
+1967,FAI,Privada com fins lucrativos,21,MA,Nordeste
+1968,FBT,Privada com fins lucrativos,28,SE,Nordeste
+1970,UNES,Privada com fins lucrativos,32,ES,Sudeste
+1972,TIJUCUSSU,Privada com fins lucrativos,35,SP,Sudeste
+1973,ISEOL,Privada sem fins lucrativos,35,SP,Sudeste
+1977,CESA,Privada com fins lucrativos,31,MG,Sudeste
+1978,FAMETRO,Privada com fins lucrativos,23,CE,Nordeste
+1980,SINERGIA,Privada com fins lucrativos,42,SC,Sul
+1984,FACIG,Privada com fins lucrativos,31,MG,Sudeste
+1988,AVANTIS,Privada com fins lucrativos,42,SC,Sul
+1992,IESP,Privada sem fins lucrativos,26,PE,Nordeste
+1993,SESPA,Privada com fins lucrativos,31,MG,Sudeste
+1995,FAMENE,Privada com fins lucrativos,25,PB,Nordeste
+1996,ICEC,Privada sem fins lucrativos,51,MT,Centro-Oeste
+1998,ISEED,Privada com fins lucrativos,31,MG,Sudeste
+2001,SALT,Privada sem fins lucrativos,29,BA,Nordeste
+2005,FACISAS,Privada com fins lucrativos,51,MT,Centro-Oeste
+2009,FTGA,Privada sem fins lucrativos,35,SP,Sudeste
+2010,ESAMC,Privada com fins lucrativos,35,SP,Sudeste
+2012,ISEP,Privada com fins lucrativos,26,PE,Nordeste
+2015,ISTA,Privada sem fins lucrativos,31,MG,Sudeste
+2022,FAROL,Privada com fins lucrativos,11,RO,Norte
+2027,FAC-CG,Privada com fins lucrativos,25,PB,Nordeste
+2030,ISECAMP,Privada com fins lucrativos,35,SP,Sudeste
+2033,ISEF,Privada com fins lucrativos,26,PE,Nordeste
+2035,ULT,Privada com fins lucrativos,41,PR,Sul
+2037,FCT,Privada com fins lucrativos,29,BA,Nordeste
+2039,FACILUZ,Privada com fins lucrativos,35,SP,Sudeste
+2040,FAF,Privada com fins lucrativos,31,MG,Sudeste
+2041,SUDAMÉRICA,Privada com fins lucrativos,31,MG,Sudeste
+2045,FAMA,Privada com fins lucrativos,28,SE,Nordeste
+2049,IESMA,Privada sem fins lucrativos,21,MA,Nordeste
+2054,FENA,Privada sem fins lucrativos,50,MS,Centro-Oeste
+2056,FAP,Privada com fins lucrativos,35,SP,Sudeste
+2058,UNNESA,Privada com fins lucrativos,11,RO,Norte
+2067,FACEMP,Privada com fins lucrativos,29,BA,Nordeste
+2069,FATECH,Privada sem fins lucrativos,16,AP,Norte
+2073,ISE-PADRAO,Privada com fins lucrativos,52,GO,Centro-Oeste
+2075,IESA,Privada sem fins lucrativos,27,AL,Nordeste
+2076,FARB,Privada com fins lucrativos,29,BA,Nordeste
+2077,FAA,Privada sem fins lucrativos,41,PR,Sul
+2079,FAI,Privada com fins lucrativos,15,PA,Norte
+2082,FCM-PB,Privada com fins lucrativos,25,PB,Nordeste
+2084,FACENP,Privada sem fins lucrativos,43,RS,Sul
+2085,IBES,Privada sem fins lucrativos,29,BA,Nordeste
+2086,IESFI,Privada sem fins lucrativos,41,PR,Sul
+2091,ISEPS,Privada sem fins lucrativos,33,RJ,Sudeste
+2096,DOCTUM,Privada sem fins lucrativos,31,MG,Sudeste
+2098,FAK,Privada sem fins lucrativos,23,CE,Nordeste
+2102,FAU,Privada com fins lucrativos,35,SP,Sudeste
+2111,INTA,Privada sem fins lucrativos,23,CE,Nordeste
+2113,FDB,Privada sem fins lucrativos,43,RS,Sul
+2117,FACITEC,Privada com fins lucrativos,41,PR,Sul
+2123,FMP,Privada com fins lucrativos,35,SP,Sudeste
+2124,CALAFIORI,Privada com fins lucrativos,31,MG,Sudeste
+2126,DIREITO RIO,Privada sem fins lucrativos,33,RJ,Sudeste
+2128,FGV DIREITO SP,Privada sem fins lucrativos,35,SP,Sudeste
+2129,EESP,Privada sem fins lucrativos,35,SP,Sudeste
+2131,FAPAN,Privada com fins lucrativos,35,SP,Sudeste
+2132,FAB,Privada com fins lucrativos,12,AC,Norte
+2134,FAIFA,Privada sem fins lucrativos,52,GO,Centro-Oeste
+2137,FASAMAR,Privada com fins lucrativos,17,TO,Norte
+2140,FNSL,Privada com fins lucrativos,29,BA,Nordeste
+2141,FABAPAR,Privada sem fins lucrativos,41,PR,Sul
+2145,FPTEC,Privada sem fins lucrativos,31,MG,Sudeste
+2146,FAC,Privada com fins lucrativos,12,AC,Norte
+2147,FAMETRO,Privada com fins lucrativos,13,AM,Norte
+2148,FAPAL,Privada sem fins lucrativos,17,TO,Norte
+2149,FACSUL,Privada sem fins lucrativos,50,MS,Centro-Oeste
+2150,FAPI,Privada sem fins lucrativos,22,PI,Nordeste
+2154,ISAT,Privada com fins lucrativos,33,RJ,Sudeste
+2156,FACESTA,Privada sem fins lucrativos,27,AL,Nordeste
+2157,ISESA,Privada sem fins lucrativos,41,PR,Sul
+2158,FSM,Privada com fins lucrativos,25,PB,Nordeste
+2160,IESSA,Privada sem fins lucrativos,41,PR,Sul
+2165,FAFIG,Privada sem fins lucrativos,41,PR,Sul
+2168,FCG,Privada sem fins lucrativos,50,MS,Centro-Oeste
+2171,IBHES,Privada sem fins lucrativos,31,MG,Sudeste
+2173,FAG,Privada com fins lucrativos,35,SP,Sudeste
+2174,FASC,Privada sem fins lucrativos,42,SC,Sul
+2175,FAMEBLU,Privada com fins lucrativos,42,SC,Sul
+2177,FIPEN,Privada com fins lucrativos,35,SP,Sudeste
+2180,RATIO,Privada com fins lucrativos,23,CE,Nordeste
+2183,CUFSA,Privada sem fins lucrativos,35,SP,Sudeste
+2186,FSDB,Privada sem fins lucrativos,13,AM,Norte
+2188,ISE - SION,Privada sem fins lucrativos,41,PR,Sul
+2189,FACAM-MA,Privada com fins lucrativos,21,MA,Nordeste
+2192,ISEI,Privada sem fins lucrativos,43,RS,Sul
+2197,FVB,Privada com fins lucrativos,35,SP,Sudeste
+2198,FATO,Privada sem fins lucrativos,43,RS,Sul
+2200,FAVAG,Privada com fins lucrativos,31,MG,Sudeste
+2202,ISEPE Guaratuba,Privada com fins lucrativos,41,PR,Sul
+2220,DOCTUM,Privada sem fins lucrativos,31,MG,Sudeste
+2222,FASETE,Privada com fins lucrativos,29,BA,Nordeste
+2229,FVH,Privada com fins lucrativos,31,MG,Sudeste
+2233,FACISABH,Privada com fins lucrativos,31,MG,Sudeste
+2237,FATEBE,Privada sem fins lucrativos,15,PA,Norte
+2240,FAFOR,Privada sem fins lucrativos,23,CE,Nordeste
+2241,FACSUM,Privada sem fins lucrativos,31,MG,Sudeste
+2242,FAREC,Privada sem fins lucrativos,26,PE,Nordeste
+2243,FAP,Privada sem fins lucrativos,25,PB,Nordeste
+2244,FACIMA,Privada sem fins lucrativos,27,AL,Nordeste
+2245,FACES,Privada sem fins lucrativos,32,ES,Sudeste
+2246,FAMEC,Privada com fins lucrativos,24,RN,Nordeste
+2248,FASER,Privada sem fins lucrativos,28,SE,Nordeste
+2256,FSM,Privada com fins lucrativos,23,CE,Nordeste
+2257,FAD,Privada com fins lucrativos,35,SP,Sudeste
+2264,PIT GUARAPARI,Privada com fins lucrativos,32,ES,Sudeste
+2266,CAMBURY,Privada com fins lucrativos,52,GO,Centro-Oeste
+2270,FAEX,Privada sem fins lucrativos,31,MG,Sudeste
+2271,FPI,Privada com fins lucrativos,31,MG,Sudeste
+2275,FADISA,Privada com fins lucrativos,31,MG,Sudeste
+2279,METROCAMP,Privada com fins lucrativos,35,SP,Sudeste
+2282,FAC,Privada com fins lucrativos,41,PR,Sul
+2287,ESTEF,Privada sem fins lucrativos,43,RS,Sul
+2288,FAR,Privada com fins lucrativos,52,GO,Centro-Oeste
+2289,UCESP,Privada sem fins lucrativos,35,SP,Sudeste
+2297,FADISMA,Privada com fins lucrativos,43,RS,Sul
+2301,FF,Privada sem fins lucrativos,41,PR,Sul
+2311,FKMG,Privada sem fins lucrativos,31,MG,Sudeste
+2312,FALURB,Privada sem fins lucrativos,41,PR,Sul
+2319,ESEC,Privada com fins lucrativos,42,SC,Sul
+2320,ISEAT,Privada com fins lucrativos,32,ES,Sudeste
+2323,FAMA,Privada com fins lucrativos,11,RO,Norte
+2324,FUBSJ,Privada com fins lucrativos,42,SC,Sul
+2328,FITB,Privada sem fins lucrativos,35,SP,Sudeste
+2330,FCR,Privada sem fins lucrativos,51,MT,Centro-Oeste
+2332,FACESPI,Privada com fins lucrativos,35,SP,Sudeste
+2334,FCRO,Privada sem fins lucrativos,33,RJ,Sudeste
+2336,FMB,Privada com fins lucrativos,52,GO,Centro-Oeste
+2341,FALC,Privada com fins lucrativos,35,SP,Sudeste
+2342,ISE-CERES,Privada com fins lucrativos,35,SP,Sudeste
+2343,FAAO,Privada com fins lucrativos,12,AC,Norte
+2346,IFIBE,Privada sem fins lucrativos,43,RS,Sul
+2348,IESF,Privada com fins lucrativos,35,SP,Sudeste
+2350,ESMAC,Privada com fins lucrativos,15,PA,Norte
+2351,PIO XII - DIR,Privada sem fins lucrativos,32,ES,Sudeste
+2356,FPA,Privada sem fins lucrativos,15,PA,Norte
+2362,FCM,Privada com fins lucrativos,25,PB,Nordeste
+2364,FAP,Privada com fins lucrativos,17,TO,Norte
+2365,FACTO,Privada sem fins lucrativos,17,TO,Norte
+2369,INESA,Privada com fins lucrativos,42,SC,Sul
+2383,IMED,Privada com fins lucrativos,43,RS,Sul
+2384,FAIBRA,Privada sem fins lucrativos,22,PI,Nordeste
+2389,FFTP,Privada sem fins lucrativos,35,SP,Sudeste
+2402,FCS,Privada com fins lucrativos,29,BA,Nordeste
+2409,ASCES-UNITA,Privada sem fins lucrativos,26,PE,Nordeste
+2410,FAC,Privada sem fins lucrativos,23,CE,Nordeste
+2413,FAESF,Privada com fins lucrativos,22,PI,Nordeste
+2420,FAPAR,Privada sem fins lucrativos,41,PR,Sul
+2423,FACIT,Privada sem fins lucrativos,31,MG,Sudeste
+2426,FIBRA,Privada com fins lucrativos,15,PA,Norte
+2428,FACICA,Privada com fins lucrativos,31,MG,Sudeste
+2435,LUMEN FACULDADES,Privada com fins lucrativos,25,PB,Nordeste
+2437,PIT TEIXEIRA,Privada com fins lucrativos,29,BA,Nordeste
+2440,FCJP,Privada sem fins lucrativos,31,MG,Sudeste
+2442,PIO XII - BIO,Privada sem fins lucrativos,32,ES,Sudeste
+2444,FJC,Privada sem fins lucrativos,29,BA,Nordeste
+2450,PROMOVE,Privada sem fins lucrativos,31,MG,Sudeste
+2451,FAINTIPI,Privada sem fins lucrativos,15,PA,Norte
+2456,FACHASUL,Privada sem fins lucrativos,50,MS,Centro-Oeste
+2459,FEAPA,Privada com fins lucrativos,15,PA,Norte
+2462,FSL,Privada sem fins lucrativos,42,SC,Sul
+2465,FD,Privada com fins lucrativos,35,SP,Sudeste
+2466,FIED,Privada com fins lucrativos,23,CE,Nordeste
+2468,ITF,Privada sem fins lucrativos,33,RJ,Sudeste
+2469,IMMES,Privada com fins lucrativos,16,AP,Norte
+2470,ISEC,Privada sem fins lucrativos,29,BA,Nordeste
+2474,FAMAM,Privada com fins lucrativos,29,BA,Nordeste
+2475,FAM,Privada sem fins lucrativos,31,MG,Sudeste
+2477,FAMA,Privada sem fins lucrativos,31,MG,Sudeste
+2478,FISUL,Privada com fins lucrativos,43,RS,Sul
+2484,PFD,Privada sem fins lucrativos,53,DF,Centro-Oeste
+2485,FCF,Privada sem fins lucrativos,23,CE,Nordeste
+2488,FAE,Privada sem fins lucrativos,43,RS,Sul
+2491,ISCECAP,Privada sem fins lucrativos,53,DF,Centro-Oeste
+2497,FATE,Privada com fins lucrativos,23,CE,Nordeste
+2499,FA,Privada com fins lucrativos,29,BA,Nordeste
+2501,FESGO,Privada com fins lucrativos,52,GO,Centro-Oeste
+2504,FACED,Privada com fins lucrativos,31,MG,Sudeste
+2505,FAD,Privada com fins lucrativos,31,MG,Sudeste
+2511,FADIG,Privada com fins lucrativos,32,ES,Sudeste
+2513,CESA,Privada com fins lucrativos,41,PR,Sul
+2521,ISESPI,Privada com fins lucrativos,22,PI,Nordeste
+2532,FASUG,Privada com fins lucrativos,52,GO,Centro-Oeste
+2536,FARES,Privada com fins lucrativos,14,RR,Norte
+2537,FSG,Privada com fins lucrativos,32,ES,Sudeste
+2538,FAVENI,Privada com fins lucrativos,32,ES,Sudeste
+2539,FAEME,Privada sem fins lucrativos,21,MA,Nordeste
+2553,IESULEM,Privada com fins lucrativos,29,BA,Nordeste
+2554,FEST,Privada com fins lucrativos,21,MA,Nordeste
+2556,UNIFIAM-FAAM,Privada sem fins lucrativos,35,SP,Sudeste
+2560,FAESF/UNEF,Privada com fins lucrativos,29,BA,Nordeste
+2564,UFCG,Pública Federal,25,PB,Nordeste
+2565,UNIABEU,Privada sem fins lucrativos,33,RJ,Sudeste
+2566,IESO,Privada sem fins lucrativos,26,PE,Nordeste
+2568,FAZAG,Privada sem fins lucrativos,29,BA,Nordeste
+2569,CET-FAESA,Privada sem fins lucrativos,32,ES,Sudeste
+2571,FACREDENTOR,Privada sem fins lucrativos,33,RJ,Sudeste
+2573,FTSA,Privada sem fins lucrativos,41,PR,Sul
+2575,FISO,Privada sem fins lucrativos,35,SP,Sudeste
+2576,FIPAG,Privada com fins lucrativos,32,ES,Sudeste
+2581,FSS,Privada com fins lucrativos,29,BA,Nordeste
+2582,UCP,Privada com fins lucrativos,41,PR,Sul
+2591,EBEF,Privada sem fins lucrativos,33,RJ,Sudeste
+2593,FJN,Privada com fins lucrativos,23,CE,Nordeste
+2613,FAMETA,Privada com fins lucrativos,12,AC,Norte
+2616,FASAP,Privada com fins lucrativos,33,RJ,Sudeste
+2617,FSB/RJ,Privada sem fins lucrativos,33,RJ,Sudeste
+2620,FAMPER,Privada com fins lucrativos,41,PR,Sul
+2622,ISES,Privada sem fins lucrativos,32,ES,Sudeste
+2623,FAT,Privada com fins lucrativos,15,PA,Norte
+2624,FLP,Privada com fins lucrativos,41,PR,Sul
+2625,IBTA,Privada com fins lucrativos,35,SP,Sudeste
+2629,AJES,Privada sem fins lucrativos,51,MT,Centro-Oeste
+2630,AJES,Privada sem fins lucrativos,51,MT,Centro-Oeste
+2632,UNESULBAHIA,Privada com fins lucrativos,29,BA,Nordeste
+2636,FADIP,Privada com fins lucrativos,31,MG,Sudeste
+2640,DOCTUM,Privada sem fins lucrativos,32,ES,Sudeste
+2642,FASVIPA,Privada sem fins lucrativos,27,AL,Nordeste
+2647,FISMA,Privada com fins lucrativos,43,RS,Sul
+2652,FACULDADE UNIDA,Privada sem fins lucrativos,32,ES,Sudeste
+2653,FAP,Privada sem fins lucrativos,29,BA,Nordeste
+2656,FASC,Privada sem fins lucrativos,26,PE,Nordeste
+2660,PHENIX,Privada sem fins lucrativos,52,GO,Centro-Oeste
+2677,ISESJT,Privada com fins lucrativos,22,PI,Nordeste
+2687,FDA,Privada com fins lucrativos,43,RS,Sul
+2702,FCJP,Privada com fins lucrativos,17,TO,Norte
+2703,FSM,Privada sem fins lucrativos,31,MG,Sudeste
+2723,FCR,Privada sem fins lucrativos,26,PE,Nordeste
+2724,IESMA,Privada com fins lucrativos,21,MA,Nordeste
+2726,INEA,Privada com fins lucrativos,35,SP,Sudeste
+2736,ITC,Privada sem fins lucrativos,31,MG,Sudeste
+2741,FACDO,Privada sem fins lucrativos,17,TO,Norte
+2744,ISE VERA CRUZ,Privada sem fins lucrativos,35,SP,Sudeste
+2745,ESAMAZ,Privada com fins lucrativos,15,PA,Norte
+2753,FCG,Privada sem fins lucrativos,29,BA,Nordeste
+2754,FSP,Privada com fins lucrativos,11,RO,Norte
+2755,FAVIM,Privada com fins lucrativos,42,SC,Sul
+2756,FAV,Privada com fins lucrativos,52,GO,Centro-Oeste
+2761,UESSBA,Privada com fins lucrativos,29,BA,Nordeste
+2763,CESG,Privada com fins lucrativos,31,MG,Sudeste
+2766,FAEM,Privada com fins lucrativos,42,SC,Sul
+2770,FACUNICAMPS,Privada com fins lucrativos,52,GO,Centro-Oeste
+2771,CESUPI,Privada com fins lucrativos,29,BA,Nordeste
+2773,FAMA,Privada com fins lucrativos,16,AP,Norte
+2774,FAFIBE,Privada sem fins lucrativos,35,SP,Sudeste
+2775,FAUSB,Privada com fins lucrativos,51,MT,Centro-Oeste
+2779,FIOURO,Privada sem fins lucrativos,11,RO,Norte
+2783,FATENE,Privada com fins lucrativos,23,CE,Nordeste
+2787,FPP,Privada sem fins lucrativos,41,PR,Sul
+2793,FACULDADE UBS,Privada com fins lucrativos,35,SP,Sudeste
+2794,FAIESP,Privada com fins lucrativos,51,MT,Centro-Oeste
+2796,FAI,Privada com fins lucrativos,52,GO,Centro-Oeste
+2799,FANEESP,Privada com fins lucrativos,41,PR,Sul
+2805,FACIMOD,Privada com fins lucrativos,41,PR,Sul
+2808,ITECNE,Privada com fins lucrativos,41,PR,Sul
+2811,FAPCOM,Privada sem fins lucrativos,35,SP,Sudeste
+2821,IDC,Privada sem fins lucrativos,43,RS,Sul
+2826,FACULDADE FÁTIMA,Privada sem fins lucrativos,43,RS,Sul
+2827,FAEPI,Privada sem fins lucrativos,22,PI,Nordeste
+2831,DOM BOSCO GOIOERÊ,Privada sem fins lucrativos,41,PR,Sul
+2832,ISEPRO,Privada com fins lucrativos,22,PI,Nordeste
+2835,UNINASSAU,Privada com fins lucrativos,26,PE,Nordeste
+2836,SULDAMÉRICA,Privada com fins lucrativos,52,GO,Centro-Oeste
+2841,FP,Privada com fins lucrativos,41,PR,Sul
+2843,FCMS/JF,Privada com fins lucrativos,31,MG,Sudeste
+2844,FSDB,Privada sem fins lucrativos,35,SP,Sudeste
+2845,FARR,Privada com fins lucrativos,25,PB,Nordeste
+2846,F.T.U.,Privada sem fins lucrativos,35,SP,Sudeste
+2849,ESDHC,Privada sem fins lucrativos,31,MG,Sudeste
+2855,UNIFIN,Privada com fins lucrativos,43,RS,Sul
+2859,FABEL,Privada com fins lucrativos,15,PA,Norte
+2870,FASEC,Privada com fins lucrativos,17,TO,Norte
+2879,FMC,Privada sem fins lucrativos,35,SP,Sudeste
+2886,FAZP,Privada sem fins lucrativos,35,SP,Sudeste
+2891,AES,Privada com fins lucrativos,35,SP,Sudeste
+2895,FETREMIS,Privada com fins lucrativos,43,RS,Sul
+2896,FASATC,Privada sem fins lucrativos,42,SC,Sul
+2903,FACC,Privada com fins lucrativos,42,SC,Sul
+2904,ESAMC BRASÍLIA,Privada com fins lucrativos,53,DF,Centro-Oeste
+2908,FANEC,Privada sem fins lucrativos,24,RN,Nordeste
+2909,FACEM,Privada sem fins lucrativos,21,MA,Nordeste
+2910,FAVENORTE,Privada com fins lucrativos,31,MG,Sudeste
+2911,FAPAN,Privada sem fins lucrativos,15,PA,Norte
+2912,FAMAM-FACTAE,Privada com fins lucrativos,29,BA,Nordeste
+2915,FPM,Privada sem fins lucrativos,31,MG,Sudeste
+2917,FABRAN,Privada sem fins lucrativos,16,AP,Norte
+2922,ISEB,Privada com fins lucrativos,35,SP,Sudeste
+2927,FDR,Privada com fins lucrativos,31,MG,Sudeste
+2935,FACTHUS,Privada com fins lucrativos,31,MG,Sudeste
+2944,FACSUL,Privada com fins lucrativos,29,BA,Nordeste
+2949,FAP,Privada com fins lucrativos,21,MA,Nordeste
+2950,FADERGS,Privada com fins lucrativos,43,RS,Sul
+2961,FAPAN,Privada com fins lucrativos,51,MT,Centro-Oeste
+2969,OCIDEMNTE,Privada sem fins lucrativos,29,BA,Nordeste
+2971,FB,Privada com fins lucrativos,35,SP,Sudeste
+3000,FACENOP,Privada com fins lucrativos,51,MT,Centro-Oeste
+3004,IESC,Privada com fins lucrativos,27,AL,Nordeste
+3008,FACULDADE INPG - SJC,Privada com fins lucrativos,35,SP,Sudeste
+3012,FAJOPA,Privada sem fins lucrativos,35,SP,Sudeste
+3020,IFASC,Privada com fins lucrativos,52,GO,Centro-Oeste
+3021,ISESC,Privada com fins lucrativos,52,GO,Centro-Oeste
+3027,FACESI,Privada sem fins lucrativos,41,PR,Sul
+3029,FAAM,Privada com fins lucrativos,15,PA,Norte
+3034,FACDELTA,Privada com fins lucrativos,29,BA,Nordeste
+3042,CHRISFAPI,Privada sem fins lucrativos,22,PI,Nordeste
+3051,FAETEL,Privada sem fins lucrativos,35,SP,Sudeste
+3099,FPB,Privada com fins lucrativos,25,PB,Nordeste
+3117,FS,Privada com fins lucrativos,31,MG,Sudeste
+3146,FOR,Privada sem fins lucrativos,26,PE,Nordeste
+3148,FAR,Privada com fins lucrativos,26,PE,Nordeste
+3149,FPD,Privada com fins lucrativos,31,MG,Sudeste
+3151,UNOCHAPECÓ,Privada sem fins lucrativos,42,SC,Sul
+3155,FATEC,Privada sem fins lucrativos,42,SC,Sul
+3157,ISEAR,Privada com fins lucrativos,52,GO,Centro-Oeste
+3158,ISEAAFI,Privada sem fins lucrativos,41,PR,Sul
+3159,SENAI -SC - CTAI,Privada sem fins lucrativos,42,SC,Sul
+3171,FAE,Privada sem fins lucrativos,43,RS,Sul
+3172,UEA,Pública Estadual,13,AM,Norte
+3176,ISEE,Privada sem fins lucrativos,43,RS,Sul
+3177,FADFESPSP,Privada sem fins lucrativos,35,SP,Sudeste
+3180,UNIAMÉRICA,Privada com fins lucrativos,41,PR,Sul
+3182,CESAMA,Privada com fins lucrativos,27,AL,Nordeste
+3186,FAEV,Privada sem fins lucrativos,35,SP,Sudeste
+3190,ISEG,Privada com fins lucrativos,35,SP,Sudeste
+3192,ISEC,Privada com fins lucrativos,25,PB,Nordeste
+3193,CESCAGE,Privada com fins lucrativos,41,PR,Sul
+3194,FAMINAS-BH,Privada com fins lucrativos,31,MG,Sudeste
+3203,ISALBE,Privada com fins lucrativos,53,DF,Centro-Oeste
+3204,FQM,Privada com fins lucrativos,51,MT,Centro-Oeste
+3205,FACISA,Privada com fins lucrativos,31,MG,Sudeste
+3215,FAERPI,Privada sem fins lucrativos,22,PI,Nordeste
+3216,FACIBA,Privada sem fins lucrativos,29,BA,Nordeste
+3223,ESCS,Pública Estadual,53,DF,Centro-Oeste
+3230,FILEM,Privada sem fins lucrativos,29,BA,Nordeste
+3232,FI,Privada com fins lucrativos,41,PR,Sul
+3252,FAQUI,Privada com fins lucrativos,52,GO,Centro-Oeste
+3268,FMT,Privada com fins lucrativos,29,BA,Nordeste
+3285,FSA,Privada com fins lucrativos,29,BA,Nordeste
+3294,ENIAC,Privada com fins lucrativos,35,SP,Sudeste
+3295,SENAC FLORIANÓPOLIS,Privada sem fins lucrativos,42,SC,Sul
+3299,FATI,Privada com fins lucrativos,23,CE,Nordeste
+3302,ISEJ,Privada sem fins lucrativos,35,SP,Sudeste
+3303,ICE,Privada sem fins lucrativos,51,MT,Centro-Oeste
+3304,FIP,Privada sem fins lucrativos,25,PB,Nordeste
+3306,FATIPUC,Privada sem fins lucrativos,43,RS,Sul
+3307,CBTA,Privada com fins lucrativos,35,SP,Sudeste
+3308,FTT,Privada sem fins lucrativos,35,SP,Sudeste
+3311,FATESF,Privada com fins lucrativos,32,ES,Sudeste
+3319,FACULDADE CESUC,Privada com fins lucrativos,52,GO,Centro-Oeste
+3323,IESCAMP,Privada com fins lucrativos,35,SP,Sudeste
+3332,FATEC,Privada sem fins lucrativos,33,RJ,Sudeste
+3336,UERGS,Pública Estadual,43,RS,Sul
+3337,FACULDADE CET,Privada com fins lucrativos,22,PI,Nordeste
+3339,FACULDADE IDEAU,Privada com fins lucrativos,43,RS,Sul
+3360,IFESP,Pública Estadual,24,RN,Nordeste
+3363,FAG,Privada com fins lucrativos,17,TO,Norte
+3365,FASJ,Privada sem fins lucrativos,29,BA,Nordeste
+3367,ISEOL,Privada sem fins lucrativos,31,MG,Sudeste
+3368,UNIS-MG,Privada sem fins lucrativos,31,MG,Sudeste
+3371,UNIPAM,Privada sem fins lucrativos,31,MG,Sudeste
+3372,UNILAVRAS,Privada sem fins lucrativos,31,MG,Sudeste
+3375,IESM,Privada com fins lucrativos,21,MA,Nordeste
+3376,FATIN,Privada sem fins lucrativos,26,PE,Nordeste
+3377,FAMA,Privada sem fins lucrativos,29,BA,Nordeste
+3380,FAMIPAR,Privada sem fins lucrativos,41,PR,Sul
+3388,FAP,Privada com fins lucrativos,23,CE,Nordeste
+3389,SER,Privada sem fins lucrativos,52,GO,Centro-Oeste
+3393,FACDOMBOSCO,Privada com fins lucrativos,41,PR,Sul
+3396,FACELS,Privada com fins lucrativos,53,DF,Centro-Oeste
+3400,FASSP,Privada com fins lucrativos,35,SP,Sudeste
+3411,FACEQ,Privada com fins lucrativos,35,SP,Sudeste
+3427,FJAV,Privada sem fins lucrativos,28,SE,Nordeste
+3428,FA,Privada com fins lucrativos,35,SP,Sudeste
+3431,FAS,Privada com fins lucrativos,24,RN,Nordeste
+3434,FASI,Privada com fins lucrativos,31,MG,Sudeste
+3436,FARA,Privada sem fins lucrativos,35,SP,Sudeste
+3443,CESUCA,Privada com fins lucrativos,43,RS,Sul
+3448,ISEIB,Privada com fins lucrativos,31,MG,Sudeste
+3456,POLICAMP,Privada sem fins lucrativos,35,SP,Sudeste
+3488,CES-CL,Pública Municipal,31,MG,Sudeste
+3495,HORUS,Privada com fins lucrativos,42,SC,Sul
+3506,FCES,Privada com fins lucrativos,28,SE,Nordeste
+3509,FAVI,Privada sem fins lucrativos,41,PR,Sul
+3513,FAPREV,Privada sem fins lucrativos,35,SP,Sudeste
+3514,FACE - ALFOR,Privada sem fins lucrativos,31,MG,Sudeste
+3515,FAINTVISA,Privada sem fins lucrativos,26,PE,Nordeste
+3516,FAC - SAUDE ARTHE,Privada sem fins lucrativos,31,MG,Sudeste
+3518,FJ,Privada com fins lucrativos,42,SC,Sul
+3522,FACAPA,Privada sem fins lucrativos,31,MG,Sudeste
+3526,IESMC,Privada com fins lucrativos,21,MA,Nordeste
+3529,UNIVEM,Privada sem fins lucrativos,35,SP,Sudeste
+3530,FANAN,Privada com fins lucrativos,31,MG,Sudeste
+3533,FACERES,Privada com fins lucrativos,35,SP,Sudeste
+3536,FATEV,Privada sem fins lucrativos,41,PR,Sul
+3538,FAE SÉVIGNÉ,Privada sem fins lucrativos,43,RS,Sul
+3541,FAT,Privada sem fins lucrativos,43,RS,Sul
+3543,FACULDADE IENH,Privada sem fins lucrativos,43,RS,Sul
+3568,FADIRE,Privada com fins lucrativos,26,PE,Nordeste
+3573,FTBB,Privada sem fins lucrativos,53,DF,Centro-Oeste
+3584,ISED,Privada com fins lucrativos,26,PE,Nordeste
+3585,FACRUZ,Privada com fins lucrativos,26,PE,Nordeste
+3587,FADISI,Privada sem fins lucrativos,12,AC,Norte
+3588,FDPII,Privada com fins lucrativos,29,BA,Nordeste
+3590,FESVIP,Privada com fins lucrativos,25,PB,Nordeste
+3607,ESUP,Privada com fins lucrativos,52,GO,Centro-Oeste
+3613,IESGO,Privada com fins lucrativos,52,GO,Centro-Oeste
+3614,FGV,Privada sem fins lucrativos,33,RJ,Sudeste
+3615,FPS,Privada sem fins lucrativos,26,PE,Nordeste
+3617,FACESF,Privada com fins lucrativos,26,PE,Nordeste
+3618,FMS,Privada com fins lucrativos,35,SP,Sudeste
+3625,FCNSV,Privada com fins lucrativos,24,RN,Nordeste
+3631,FADIC,Privada sem fins lucrativos,26,PE,Nordeste
+3641,UNIFEB,Privada sem fins lucrativos,35,SP,Sudeste
+3644,FCST,Privada com fins lucrativos,24,RN,Nordeste
+3649,FCV,Privada com fins lucrativos,41,PR,Sul
+3657,FACOMP,Privada com fins lucrativos,31,MG,Sudeste
+3663,FE,Privada com fins lucrativos,53,DF,Centro-Oeste
+3667,FAFIL,Privada com fins lucrativos,35,SP,Sudeste
+3669,FARRP,Privada com fins lucrativos,29,BA,Nordeste
+3675,SINAL,Privada sem fins lucrativos,12,AC,Norte
+3680,FACPED Fortaleza,Privada com fins lucrativos,23,CE,Nordeste
+3682,ISEMI,Pública Municipal,33,RJ,Sudeste
+3684,FESC,Privada sem fins lucrativos,41,PR,Sul
+3690,FAPE2,Privada com fins lucrativos,31,MG,Sudeste
+3692,FATEC CAMPINAS,Privada sem fins lucrativos,35,SP,Sudeste
+3697,FSP,Privada sem fins lucrativos,43,RS,Sul
+3710,ESNS,Privada sem fins lucrativos,33,RJ,Sudeste
+3716,FCV,Privada com fins lucrativos,31,MG,Sudeste
+3724,FSJ,Privada com fins lucrativos,21,MA,Nordeste
+3741,FEBAC,Privada com fins lucrativos,21,MA,Nordeste
+3743,FATESF,Privada com fins lucrativos,35,SP,Sudeste
+3746,FAPPES,Privada com fins lucrativos,35,SP,Sudeste
+3753,DOMPEDRO,Privada sem fins lucrativos,35,SP,Sudeste
+3754,FADMINAS,Privada sem fins lucrativos,31,MG,Sudeste
+3757,FASEM,Privada com fins lucrativos,52,GO,Centro-Oeste
+3768,IBGEN,Privada com fins lucrativos,43,RS,Sul
+3769,FAMAT,Privada com fins lucrativos,16,AP,Norte
+3770,FTBSP,Privada sem fins lucrativos,35,SP,Sudeste
+3772,IBGEN,Privada sem fins lucrativos,43,RS,Sul
+3774,FSTA,Privada com fins lucrativos,29,BA,Nordeste
+3775,IUVB,Privada com fins lucrativos,35,SP,Sudeste
+3776,IESMT,Privada sem fins lucrativos,51,MT,Centro-Oeste
+3777,FAC,Privada sem fins lucrativos,41,PR,Sul
+3778,FACAR,Privada sem fins lucrativos,28,SE,Nordeste
+3782,FACI,Privada com fins lucrativos,32,ES,Sudeste
+3783,FAPEN,Privada sem fins lucrativos,15,PA,Norte
+3784,IESRN,Privada sem fins lucrativos,24,RN,Nordeste
+3785,IMEC,Privada sem fins lucrativos,21,MA,Nordeste
+3786,FACEMG,Privada sem fins lucrativos,31,MG,Sudeste
+3787,FESAM,Privada sem fins lucrativos,16,AP,Norte
+3788,FJF,Privada sem fins lucrativos,31,MG,Sudeste
+3790,ENSITEC,Privada com fins lucrativos,41,PR,Sul
+3793,FAF,Privada com fins lucrativos,31,MG,Sudeste
+3797,FAG,Privada com fins lucrativos,41,PR,Sul
+3804,SENAC/RS,Privada sem fins lucrativos,43,RS,Sul
+3805,FATECPB,Privada com fins lucrativos,25,PB,Nordeste
+3817,FMN JOĂO PESSOA,Privada com fins lucrativos,25,PB,Nordeste
+3823,FAPA,Privada com fins lucrativos,31,MG,Sudeste
+3826,FVG,Privada sem fins lucrativos,29,BA,Nordeste
+3839,IPEMED,Privada com fins lucrativos,31,MG,Sudeste
+3840,FACVEST,Privada com fins lucrativos,42,SC,Sul
+3849,UFT,Pública Federal,17,TO,Norte
+3853,FMN NATAL,Privada com fins lucrativos,24,RN,Nordeste
+3854,FAE,Privada com fins lucrativos,53,DF,Centro-Oeste
+3862,FLF,Privada sem fins lucrativos,23,CE,Nordeste
+3864,FARAL,Privada com fins lucrativos,29,BA,Nordeste
+3866,FABEC BRASIL,Privada com fins lucrativos,52,GO,Centro-Oeste
+3867,MAUADF,Privada com fins lucrativos,53,DF,Centro-Oeste
+3869,IFES,Privada com fins lucrativos,21,MA,Nordeste
+3874,FAPRO,Privada sem fins lucrativos,53,DF,Centro-Oeste
+3875,UNIFEG,Privada sem fins lucrativos,31,MG,Sudeste
+3877,FBC,Privada com fins lucrativos,52,GO,Centro-Oeste
+3878,FACULDADE DECISION,Privada com fins lucrativos,43,RS,Sul
+3879,FMN CG,Privada com fins lucrativos,25,PB,Nordeste
+3881,FIS,Privada com fins lucrativos,26,PE,Nordeste
+3920,FATEC SENAI RM,Privada sem fins lucrativos,52,GO,Centro-Oeste
+3921,FAAHF,Privada com fins lucrativos,29,BA,Nordeste
+3930,IESRSA,Privada com fins lucrativos,22,PI,Nordeste
+3933,FAMESP,Privada com fins lucrativos,35,SP,Sudeste
+3940,FAESB,Privada sem fins lucrativos,35,SP,Sudeste
+3946,SENAC,Privada sem fins lucrativos,42,SC,Sul
+3947,SENAC,Privada sem fins lucrativos,42,SC,Sul
+3948,SENAC,Privada sem fins lucrativos,42,SC,Sul
+3951,FATEC- JF,Privada sem fins lucrativos,31,MG,Sudeste
+3954,FACIJUGO,Privada sem fins lucrativos,31,MG,Sudeste
+3955,FIC,Privada sem fins lucrativos,31,MG,Sudeste
+3962,SENAI CIMATEC,Privada sem fins lucrativos,29,BA,Nordeste
+3966,UNEC,Privada sem fins lucrativos,31,MG,Sudeste
+3972,CESEP,Privada sem fins lucrativos,31,MG,Sudeste
+3975,FASPI,Privada com fins lucrativos,31,MG,Sudeste
+3977,META,Privada com fins lucrativos,16,AP,Norte
+3978,FATEP,Privada com fins lucrativos,35,SP,Sudeste
+3980,CENACAP,Privada com fins lucrativos,53,DF,Centro-Oeste
+3983,UNIFORMG,Privada sem fins lucrativos,31,MG,Sudeste
+3984,UNIVASF,Pública Federal,26,PE,Nordeste
+3985,SENACSP,Privada sem fins lucrativos,35,SP,Sudeste
+3986,FAINSEP,Privada sem fins lucrativos,41,PR,Sul
+3987,FUG,Privada sem fins lucrativos,52,GO,Centro-Oeste
+3991,FATESM,Privada sem fins lucrativos,11,RO,Norte
+3993,CETEP,Privada sem fins lucrativos,41,PR,Sul
+3996,SENACPE,Privada sem fins lucrativos,26,PE,Nordeste
+3998,INFNET,Privada com fins lucrativos,33,RJ,Sudeste
+4000,FAIP,Privada com fins lucrativos,35,SP,Sudeste
+4006,FATEC SENAC PELOTAS,Privada sem fins lucrativos,43,RS,Sul
+4010,IPA,Privada sem fins lucrativos,43,RS,Sul
+4016,INES,Pública Federal,33,RJ,Sudeste
+4017,UNIANCHIETA,Privada com fins lucrativos,35,SP,Sudeste
+4020,FATEC BT,Pública Estadual,35,SP,Sudeste
+4021,FATECGA,Pública Estadual,35,SP,Sudeste
+4022,FATEC/JD,Pública Estadual,35,SP,Sudeste
+4023,FATEC MAUÁ,Pública Estadual,35,SP,Sudeste
+4024,FATEC,Pública Estadual,35,SP,Sudeste
+4025,FATECRP,Pública Estadual,35,SP,Sudeste
+4026,FATEC-ZL,Pública Estadual,35,SP,Sudeste
+4028,FIT,Privada com fins lucrativos,35,SP,Sudeste
+4029,FAP,Privada com fins lucrativos,35,SP,Sudeste
+4030,UNIFLU,Privada sem fins lucrativos,33,RJ,Sudeste
+4036,FATECA,Privada com fins lucrativos,52,GO,Centro-Oeste
+4037,FATECI,Privada com fins lucrativos,23,CE,Nordeste
+4042,FAMATEC,Privada com fins lucrativos,53,DF,Centro-Oeste
+4043,FATEC EDUVALE,Privada sem fins lucrativos,35,SP,Sudeste
+4045,SOCIESC,Privada sem fins lucrativos,41,PR,Sul
+4064,FAMA,Privada sem fins lucrativos,26,PE,Nordeste
+4066,FABERJ,Privada sem fins lucrativos,33,RJ,Sudeste
+4068,ICESP,Privada sem fins lucrativos,53,DF,Centro-Oeste
+4077,FAQI,Privada com fins lucrativos,43,RS,Sul
+4079,FAT- INAP,Privada com fins lucrativos,31,MG,Sudeste
+4086,FATEJ,Privada com fins lucrativos,35,SP,Sudeste
+4090,FARO,Privada com fins lucrativos,35,SP,Sudeste
+4092,FATTEP,Privada sem fins lucrativos,42,SC,Sul
+4093,FATEC-PR,Privada com fins lucrativos,41,PR,Sul
+4094,ESTÁCIO PARAÍBA,Privada com fins lucrativos,25,PB,Nordeste
+4095,FATECDF,Privada sem fins lucrativos,53,DF,Centro-Oeste
+4096,Ftec Porto Alegre,Privada com fins lucrativos,43,RS,Sul
+4097,Ftec Bento Gonçalves,Privada com fins lucrativos,43,RS,Sul
+4100,FATECIB,Privada sem fins lucrativos,52,GO,Centro-Oeste
+4101,FATESG,Privada sem fins lucrativos,52,GO,Centro-Oeste
+4104,ESEG,Privada com fins lucrativos,35,SP,Sudeste
+4107,FATEC SENAI,Privada sem fins lucrativos,43,RS,Sul
+4108,ICESPI,Privada sem fins lucrativos,22,PI,Nordeste
+4113,FACER,Privada com fins lucrativos,52,GO,Centro-Oeste
+4118,FJN,Privada com fins lucrativos,26,PE,Nordeste
+4123,FAJA,Privada com fins lucrativos,52,GO,Centro-Oeste
+4126,FACESA,Privada com fins lucrativos,51,MT,Centro-Oeste
+4148,SENAISC,Privada sem fins lucrativos,42,SC,Sul
+4150,FATEP,Privada com fins lucrativos,35,SP,Sudeste
+4153,FJN,Privada com fins lucrativos,26,PE,Nordeste
+4157,FAMESUL,Privada com fins lucrativos,42,SC,Sul
+4162,FacSenacGO,Privada sem fins lucrativos,52,GO,Centro-Oeste
+4163,UNIBAVE,Privada sem fins lucrativos,42,SC,Sul
+4169,FNC,Privada com fins lucrativos,35,SP,Sudeste
+4173,FACJK,Privada sem fins lucrativos,53,DF,Centro-Oeste
+4179,FNB,Privada sem fins lucrativos,35,SP,Sudeste
+4197,FACE,Privada com fins lucrativos,22,PI,Nordeste
+4198,FAMA,Privada com fins lucrativos,52,GO,Centro-Oeste
+4199,ROGA,Privada sem fins lucrativos,53,DF,Centro-Oeste
+4201,FAESNE,Privada com fins lucrativos,25,PB,Nordeste
+4211,ESAMC,Privada com fins lucrativos,35,SP,Sudeste
+4218,FPL,Privada sem fins lucrativos,31,MG,Sudeste
+4219,ISEFOR,Privada sem fins lucrativos,31,MG,Sudeste
+4251,PIT-FATEC,Privada com fins lucrativos,31,MG,Sudeste
+4255,UNESC,Privada sem fins lucrativos,11,RO,Norte
+4256,FIP-MOC,Privada com fins lucrativos,31,MG,Sudeste
+4257,IFITEG,Privada sem fins lucrativos,52,GO,Centro-Oeste
+4259,FACMAIS,Privada com fins lucrativos,52,GO,Centro-Oeste
+4261,FAQI,Privada com fins lucrativos,43,RS,Sul
+4277,ESTÁCIO AMAZONAS,Privada com fins lucrativos,13,AM,Norte
+4289,FAVED,Privada com fins lucrativos,31,MG,Sudeste
+4293,FIT,Privada com fins lucrativos,35,SP,Sudeste
+4329,FACEM-BH,Privada com fins lucrativos,31,MG,Sudeste
+4355,FTP,Privada com fins lucrativos,17,TO,Norte
+4356,FACIP,Pública Municipal,26,PE,Nordeste
+4357,FAATESP,Privada com fins lucrativos,35,SP,Sudeste
+4362,PITÁGORAS-BETIM,Privada com fins lucrativos,31,MG,Sudeste
+4367,FATENE,Privada com fins lucrativos,23,CE,Nordeste
+4399,UNIBALSAS,Privada com fins lucrativos,21,MA,Nordeste
+4420,FIBAM,Privada com fins lucrativos,26,PE,Nordeste
+4421,FATEC SENAI BH,Privada sem fins lucrativos,31,MG,Sudeste
+4428,FEMASS,Pública Municipal,33,RJ,Sudeste
+4429,UNIGRAN CAPITAL,Privada sem fins lucrativos,50,MS,Centro-Oeste
+4431,FACENE/RN,Privada com fins lucrativos,24,RN,Nordeste
+4435,FACSP,Privada com fins lucrativos,35,SP,Sudeste
+4442,ESPA,Privada com fins lucrativos,35,SP,Sudeste
+4450,FAMAZ,Privada sem fins lucrativos,15,PA,Norte
+4452,METROPOLITANA,Privada com fins lucrativos,15,PA,Norte
+4460,FAB,Privada com fins lucrativos,29,BA,Nordeste
+4492,FPD,Privada sem fins lucrativos,35,SP,Sudeste
+4495,FATEJA,Privada com fins lucrativos,42,SC,Sul
+4496,FATEC-IVAI,Privada com fins lucrativos,41,PR,Sul
+4502,FIC,Privada sem fins lucrativos,33,RJ,Sudeste
+4503,UFRB,Pública Federal,29,BA,Nordeste
+4504,UFGD,Pública Federal,50,MS,Centro-Oeste
+4518,FAP,Privada com fins lucrativos,42,SC,Sul
+4522,UNISALESIANO,Privada sem fins lucrativos,35,SP,Sudeste
+4530,FITS,Privada com fins lucrativos,27,AL,Nordeste
+4531,FADBA,Privada sem fins lucrativos,29,BA,Nordeste
+4533,FASP,Privada com fins lucrativos,25,PB,Nordeste
+4534,FATEC,Privada com fins lucrativos,41,PR,Sul
+4566,ESTÁCIO FATERN,Privada com fins lucrativos,24,RN,Nordeste
+4584,FAMA,Privada com fins lucrativos,41,PR,Sul
+4586,FNG,Privada com fins lucrativos,52,GO,Centro-Oeste
+4588,APOGEU,Privada com fins lucrativos,53,DF,Centro-Oeste
+4590,FATEP,Privada com fins lucrativos,35,SP,Sudeste
+4594,FCR,Privada sem fins lucrativos,11,RO,Norte
+4598,FCG,Privada sem fins lucrativos,35,SP,Sudeste
+4613,FAEMA,Privada com fins lucrativos,11,RO,Norte
+4616,FACS,Privada com fins lucrativos,43,RS,Sul
+4629,FACINN,Privada com fins lucrativos,35,SP,Sudeste
+4631,FAAJP,Privada com fins lucrativos,25,PB,Nordeste
+4655,FSO,Privada com fins lucrativos,35,SP,Sudeste
+4661,FAPAN,Privada com fins lucrativos,41,PR,Sul
+4669,FACULDADE DELTA,Privada com fins lucrativos,52,GO,Centro-Oeste
+4674,FAPAG,Privada com fins lucrativos,42,SC,Sul
+4699,FAN,Privada com fins lucrativos,52,GO,Centro-Oeste
+4700,FNR,Privada com fins lucrativos,26,PE,Nordeste
+4702,IBGM / FGM,Privada com fins lucrativos,26,PE,Nordeste
+4714,FERA,Privada com fins lucrativos,27,AL,Nordeste
+4722,FIVJ,Privada com fins lucrativos,31,MG,Sudeste
+4724,FACIC,Privada sem fins lucrativos,35,SP,Sudeste
+4725,FATEGIDIO,Privada com fins lucrativos,31,MG,Sudeste
+4729,FACERB,Privada sem fins lucrativos,33,RJ,Sudeste
+4732,FAC SENAC DF,Privada sem fins lucrativos,53,DF,Centro-Oeste
+4739,FAPAG,Privada sem fins lucrativos,29,BA,Nordeste
+4742,FJN,Privada com fins lucrativos,26,PE,Nordeste
+4751,FATECIE,Privada com fins lucrativos,41,PR,Sul
+4756,USJ,Pública Municipal,42,SC,Sul
+4766,FUNAC,Privada com fins lucrativos,31,MG,Sudeste
+4773,IBS,Privada com fins lucrativos,31,MG,Sudeste
+4777,FKBH,Privada sem fins lucrativos,31,MG,Sudeste
+4780,FACISA,Privada sem fins lucrativos,31,MG,Sudeste
+4791,CENTEC,Privada sem fins lucrativos,23,CE,Nordeste
+4793,FAFIT-FACIC,Privada com fins lucrativos,35,SP,Sudeste
+4810,AMF,Privada com fins lucrativos,43,RS,Sul
+4821,FACIGE,Privada com fins lucrativos,31,MG,Sudeste
+4823,FECET,Privada com fins lucrativos,23,CE,Nordeste
+4846,VÉRTICE,Privada com fins lucrativos,31,MG,Sudeste
+4858,ESSA,Pública Municipal,26,PE,Nordeste
+4873,ETEP,Privada com fins lucrativos,35,SP,Sudeste
+4901,FASIPE,Privada com fins lucrativos,51,MT,Centro-Oeste
+4910,FATRA,Privada com fins lucrativos,31,MG,Sudeste
+4915,FCAT,Privada com fins lucrativos,15,PA,Norte
+4925,UFABC,Pública Federal,35,SP,Sudeste
+4926,FATECPG,Pública Estadual,35,SP,Sudeste
+4945,INTA,Privada sem fins lucrativos,22,PI,Nordeste
+4962,UNIFEMM,Privada sem fins lucrativos,31,MG,Sudeste
+4964,FACEMA,Privada com fins lucrativos,21,MA,Nordeste
+4969,ITOP,Privada com fins lucrativos,17,TO,Norte
+4982,FAMEPLAN,Privada com fins lucrativos,42,SC,Sul
+4983,BILAC,Privada com fins lucrativos,35,SP,Sudeste
+4992,FTC SERTĂO CENTRAL,Privada sem fins lucrativos,23,CE,Nordeste
+4995,FACRAZ,Privada sem fins lucrativos,35,SP,Sudeste
+5000,FAEST,Privada com fins lucrativos,41,PR,Sul
+5013,UEZO,Pública Estadual,33,RJ,Sudeste
+5016,FAETERJ R DE JANEIRO,Pública Estadual,33,RJ,Sudeste
+5017,FAETERJ PETRÓPOLIS,Pública Estadual,33,RJ,Sudeste
+5018,ISEPAM,Pública Estadual,33,RJ,Sudeste
+5020,FAETERJ S ANT. PÁDUA,Pública Estadual,33,RJ,Sudeste
+5021,FAETERJ ITAPERUNA,Pública Estadual,33,RJ,Sudeste
+5025,FSB,Privada com fins lucrativos,41,PR,Sul
+5038,FACIMAB,Privada com fins lucrativos,15,PA,Norte
+5044,FDG,Pública Municipal,26,PE,Nordeste
+5051,FAETERJ BJ ITABAPOAN,Pública Estadual,33,RJ,Sudeste
+5052,FAETERJ TRÊS RIOS,Pública Estadual,33,RJ,Sudeste
+5053,FAETERJ PARACAMBI,Pública Estadual,33,RJ,Sudeste
+5077,UERR,Pública Estadual,14,RR,Norte
+5079,FAMA,Privada com fins lucrativos,41,PR,Sul
+5099,FATEC-SB,Pública Estadual,35,SP,Sudeste
+5131,SENAC,Privada sem fins lucrativos,42,SC,Sul
+5215,FIPA,Privada sem fins lucrativos,35,SP,Sudeste
+5217,FIP,Privada com fins lucrativos,35,SP,Sudeste
+5228,FRM,Privada sem fins lucrativos,27,AL,Nordeste
+5242,UNEAL,Pública Estadual,27,AL,Nordeste
+5243,FCJSD,Privada sem fins lucrativos,31,MG,Sudeste
+5276,DOCTUM,Privada sem fins lucrativos,31,MG,Sudeste
+5285,FACCAT,Privada sem fins lucrativos,43,RS,Sul
+5303,FAD,Privada com fins lucrativos,50,MS,Centro-Oeste
+5305,FAHUG,Pública Municipal,26,PE,Nordeste
+5312,FAAT,Privada com fins lucrativos,35,SP,Sudeste
+5313,FUC,Privada sem fins lucrativos,31,MG,Sudeste
+5314,FUG,Privada sem fins lucrativos,32,ES,Sudeste
+5315,FUI,Privada sem fins lucrativos,32,ES,Sudeste
+5316,FUL,Privada sem fins lucrativos,31,MG,Sudeste
+5317,FAPA,Privada sem fins lucrativos,43,RS,Sul
+5318,FGG,Privada sem fins lucrativos,42,SC,Sul
+5322,UNIPAMPA,Pública Federal,43,RS,Sul
+5362,FASERGY,Privada com fins lucrativos,28,SE,Nordeste
+5370,FUTO,Privada sem fins lucrativos,31,MG,Sudeste
+5387,FIT,Privada com fins lucrativos,35,SP,Sudeste
+5394,FENORD,Privada sem fins lucrativos,31,MG,Sudeste
+5439,FACIPLAC,Privada com fins lucrativos,53,DF,Centro-Oeste
+5511,CAMPO REAL,Privada com fins lucrativos,41,PR,Sul
+5518,FG,Privada com fins lucrativos,41,PR,Sul
+5520,FACES,Privada com fins lucrativos,14,RR,Norte
+5544,FAPAC,Privada com fins lucrativos,17,TO,Norte
+5550,FAAA,Privada com fins lucrativos,52,GO,Centro-Oeste
+5591,FICA,Privada com fins lucrativos,41,PR,Sul
+5592,FUNORTE,Privada sem fins lucrativos,31,MG,Sudeste
+5593,FAH,Privada sem fins lucrativos,35,SP,Sudeste
+5599,LIBERTAS,Privada sem fins lucrativos,31,MG,Sudeste
+5600,SJT,Privada sem fins lucrativos,43,RS,Sul
+5627,FATEC,Pública Estadual,35,SP,Sudeste
+5664,FACISA,Pública Municipal,26,PE,Nordeste
+5669,ETEP,Privada com fins lucrativos,35,SP,Sudeste
+5670,UNIVAR,Privada sem fins lucrativos,51,MT,Centro-Oeste
+5701,UEAP,Pública Estadual,16,AP,Norte
+5706,FMP,Pública Municipal,42,SC,Sul
+10016,FACO,Privada com fins lucrativos,23,CE,Nordeste
+10058,FACTIVA,Privada com fins lucrativos,29,BA,Nordeste
+10071,ITEPAFACULDADES,Privada sem fins lucrativos,43,RS,Sul
+10116,FATEC SENAI MT,Privada sem fins lucrativos,51,MT,Centro-Oeste
+10251,FACO,Privada sem fins lucrativos,51,MT,Centro-Oeste
+10323,BANDTEC,Privada com fins lucrativos,35,SP,Sudeste
+10349,IPPEO,Privada com fins lucrativos,41,PR,Sul
+10385,ITESP,Privada sem fins lucrativos,35,SP,Sudeste
+10613,FASUP,Privada sem fins lucrativos,26,PE,Nordeste
+10836,FAC-UNILAGOS,Privada com fins lucrativos,33,RJ,Sudeste
+11007,FACEOPAR,Privada com fins lucrativos,41,PR,Sul
+11289,ESNS-SP,Privada sem fins lucrativos,35,SP,Sudeste
+11308,FACSUMARÉ,Privada com fins lucrativos,35,SP,Sudeste
+11376,FAV-COLESP,Privada com fins lucrativos,35,SP,Sudeste
+11428,FAC FUNAM,Privada sem fins lucrativos,31,MG,Sudeste
+11429,FASURGS,Privada com fins lucrativos,43,RS,Sul
+11544,FAMA,Privada com fins lucrativos,52,GO,Centro-Oeste
+11563,FTSG,Privada com fins lucrativos,43,RS,Sul
+11584,Faculdade Cal,Privada sem fins lucrativos,33,RJ,Sudeste
+11593,FTA,Privada com fins lucrativos,16,AP,Norte
+11604,FAACH,Privada sem fins lucrativos,42,SC,Sul
+11645,FAEV,Privada sem fins lucrativos,11,RO,Norte
+11751,PIT Betim,Privada com fins lucrativos,31,MG,Sudeste
+11752,TATUÍ - FSP,Privada com fins lucrativos,35,SP,Sudeste
+11807,IED SP,Privada sem fins lucrativos,35,SP,Sudeste
+11818,Inspirar,Privada com fins lucrativos,41,PR,Sul
+11841,FACEP,Privada com fins lucrativos,24,RN,Nordeste
+11860,INAPÓS,Privada com fins lucrativos,31,MG,Sudeste
+11861,FACSUL,Privada sem fins lucrativos,35,SP,Sudeste
+11895,FE TAGUATINGA,Privada com fins lucrativos,53,DF,Centro-Oeste
+11902,FDC,Privada com fins lucrativos,15,PA,Norte
+11951,FASBE,Privada com fins lucrativos,29,BA,Nordeste
+12189,FAP,Privada com fins lucrativos,31,MG,Sudeste
+12229,CETFAESA,Privada sem fins lucrativos,32,ES,Sudeste
+12247,EDB,Privada com fins lucrativos,53,DF,Centro-Oeste
+12268,FACO,Privada com fins lucrativos,41,PR,Sul
+12338,FACSALLE,Privada sem fins lucrativos,43,RS,Sul
+12415,FMN Mangabeiras,Privada com fins lucrativos,27,AL,Nordeste
+12522,FAMOESP,Privada sem fins lucrativos,35,SP,Sudeste
+12523,FTSG,Privada com fins lucrativos,43,RS,Sul
+12547,FACITEN,Privada com fins lucrativos,24,RN,Nordeste
+12601,FABEA,Privada com fins lucrativos,21,MA,Nordeste
+12611,FMSL,Privada sem fins lucrativos,35,SP,Sudeste
+12620,FACSETE,Privada com fins lucrativos,31,MG,Sudeste
+12625,ESAC,Privada com fins lucrativos,25,PB,Nordeste
+12723,FINACI,Privada sem fins lucrativos,35,SP,Sudeste
+12735,FACX,Privada sem fins lucrativos,15,PA,Norte
+12754,FCC,Privada sem fins lucrativos,41,PR,Sul
+12758,FAEC-PVH,Privada sem fins lucrativos,11,RO,Norte
+12772,FTS,Privada sem fins lucrativos,31,MG,Sudeste
+12784,Ftec Novo Hamburgo,Privada com fins lucrativos,43,RS,Sul
+12847,FEFB,Privada com fins lucrativos,41,PR,Sul
+12869,FJP,Privada sem fins lucrativos,43,RS,Sul
+12899,FAMEV,Privada com fins lucrativos,31,MG,Sudeste
+12916,IPOG,Privada com fins lucrativos,52,GO,Centro-Oeste
+12922,FATEC/BA,Privada com fins lucrativos,29,BA,Nordeste
+12928,FBCBrasil,Privada com fins lucrativos,52,GO,Centro-Oeste
+12946,FAMAT,Privada com fins lucrativos,51,MT,Centro-Oeste
+13014,FATEO,Privada sem fins lucrativos,53,DF,Centro-Oeste
+13034,FASES,Privada sem fins lucrativos,31,MG,Sudeste
+13073,FATECAEROTD,Privada com fins lucrativos,42,SC,Sul
+13106,FATEC FLF,Privada sem fins lucrativos,23,CE,Nordeste
+13133,FAG,Privada com fins lucrativos,52,GO,Centro-Oeste
+13417,FPO,Privada com fins lucrativos,23,CE,Nordeste
+13467,FACTES,Privada com fins lucrativos,42,SC,Sul
+13476,FASBAM,Privada sem fins lucrativos,41,PR,Sul
+13481,FRB-GV,Privada sem fins lucrativos,35,SP,Sudeste
+13484,FAEV,Privada com fins lucrativos,32,ES,Sudeste
+13486,Factum,Privada com fins lucrativos,43,RS,Sul
+13527,FCN,Privada sem fins lucrativos,35,SP,Sudeste
+13620,FAPA,Privada com fins lucrativos,43,RS,Sul
+13625,FATENP,Privada com fins lucrativos,42,SC,Sul
+13643,FEICS,Privada sem fins lucrativos,51,MT,Centro-Oeste
+13648,FASM,Privada com fins lucrativos,43,RS,Sul
+13663,FISBE,Privada com fins lucrativos,31,MG,Sudeste
+13666,FDCON,Privada com fins lucrativos,31,MG,Sudeste
+13684,PIT Contagem,Privada com fins lucrativos,31,MG,Sudeste
+13695,EMAp-FGV,Privada sem fins lucrativos,33,RJ,Sudeste
+13716,GAP,Privada com fins lucrativos,52,GO,Centro-Oeste
+13717,FVA,Privada com fins lucrativos,42,SC,Sul
+13743,PIT GV,Privada com fins lucrativos,31,MG,Sudeste
+13749,Facear,Privada com fins lucrativos,41,PR,Sul
+13758,EAB,Privada com fins lucrativos,53,DF,Centro-Oeste
+13775,FAITEC,Privada com fins lucrativos,41,PR,Sul
+13782,FSC,Privada com fins lucrativos,29,BA,Nordeste
+13783,UNISANTANA,Privada com fins lucrativos,29,BA,Nordeste
+13784,FAPLAC,Privada com fins lucrativos,52,GO,Centro-Oeste
+13792,FANORTE CACOAL,Privada com fins lucrativos,11,RO,Norte
+13809,FASASETE,Privada com fins lucrativos,31,MG,Sudeste
+13812,ESAB,Privada com fins lucrativos,32,ES,Sudeste
+13818,FACSALLE,Privada sem fins lucrativos,43,RS,Sul
+13828,FIBH,Privada com fins lucrativos,31,MG,Sudeste
+13832,FASF,Privada sem fins lucrativos,41,PR,Sul
+13845,DIEESE,Privada sem fins lucrativos,35,SP,Sudeste
+13865,FATEPA,Privada com fins lucrativos,43,RS,Sul
+13873,FINOM,Privada com fins lucrativos,31,MG,Sudeste
+13883,FAMUR,Privada sem fins lucrativos,43,RS,Sul
+13897,Laboro,Privada com fins lucrativos,21,MA,Nordeste
+13938,FAMAR,Privada sem fins lucrativos,35,SP,Sudeste
+13944,FAN,Privada com fins lucrativos,27,AL,Nordeste
+13982,FMN de Belém,Privada com fins lucrativos,15,PA,Norte
+14002,FG,Privada com fins lucrativos,26,PE,Nordeste
+14028,UNA,Privada sem fins lucrativos,31,MG,Sudeste
+14029,FUNEC Aimorés,Privada sem fins lucrativos,31,MG,Sudeste
+14069,FAPS,Privada com fins lucrativos,35,SP,Sudeste
+14090,FABE,Privada sem fins lucrativos,31,MG,Sudeste
+14095,Fatec Futuro,Privada com fins lucrativos,41,PR,Sul
+14101,FUNEES Baependi,Privada sem fins lucrativos,31,MG,Sudeste
+14115,FUNEES Ponte Nova,Privada sem fins lucrativos,31,MG,Sudeste
+14121,FUNEES SJN,Privada sem fins lucrativos,31,MG,Sudeste
+14128,FEES Vazante,Privada sem fins lucrativos,31,MG,Sudeste
+14132,FUNEES Itanhandu,Privada sem fins lucrativos,31,MG,Sudeste
+14133,FUNEES Lambari,Privada sem fins lucrativos,31,MG,Sudeste
+14148,FUNEC Mariana,Privada sem fins lucrativos,31,MG,Sudeste
+14149,FUNEES Bocaiúva,Privada sem fins lucrativos,31,MG,Sudeste
+14151,FUNEC Nova Lima,Privada sem fins lucrativos,31,MG,Sudeste
+14153,FUNEES Porteirinha,Privada sem fins lucrativos,31,MG,Sudeste
+14155,FUNEES Sabará,Privada sem fins lucrativos,31,MG,Sudeste
+14156,FUNEES Teófilo Otoni,Privada sem fins lucrativos,31,MG,Sudeste
+14157,FUNEES Uberlândia,Privada sem fins lucrativos,31,MG,Sudeste
+14161,FUNIC,Privada sem fins lucrativos,31,MG,Sudeste
+14162,FAU G. Valadares,Privada sem fins lucrativos,31,MG,Sudeste
+14163,FUNEES G. Valadares,Privada sem fins lucrativos,31,MG,Sudeste
+14165,FATEP,Privada sem fins lucrativos,31,MG,Sudeste
+14169,FUNEES Itambacuri,Privada sem fins lucrativos,31,MG,Sudeste
+14173,FUNEES R. das Neves,Privada sem fins lucrativos,31,MG,Sudeste
+14194,FATEC,Privada sem fins lucrativos,35,SP,Sudeste
+14204,FUNEES Arcos,Privada sem fins lucrativos,31,MG,Sudeste
+14206,FUNEES,Privada sem fins lucrativos,31,MG,Sudeste
+14242,FUNIT,Privada sem fins lucrativos,31,MG,Sudeste
+14288,FACASC,Privada sem fins lucrativos,42,SC,Sul
+14313,NF,Privada com fins lucrativos,31,MG,Sudeste
+14321,FMN Fortaleza,Privada com fins lucrativos,23,CE,Nordeste
+14326,INSAEOS,Privada sem fins lucrativos,41,PR,Sul
+14342,FACREDENTOR,Privada sem fins lucrativos,33,RJ,Sudeste
+14367,FACULDADE EFICAZ,Privada com fins lucrativos,41,PR,Sul
+14401,FAMO,Privada com fins lucrativos,35,SP,Sudeste
+14403,CESUMAR,Privada sem fins lucrativos,41,PR,Sul
+14622,FISE,Privada com fins lucrativos,28,SE,Nordeste
+14715,FACPIAGET,Privada sem fins lucrativos,35,SP,Sudeste
+14717,FMN Caruaru,Privada com fins lucrativos,26,PE,Nordeste
+14727,FAP,Privada com fins lucrativos,35,SP,Sudeste
+14858,FFRAMO,Privada com fins lucrativos,35,SP,Sudeste
+14860,ESD-CEEO,Privada com fins lucrativos,43,RS,Sul
+14869,FAIPE,Privada com fins lucrativos,51,MT,Centro-Oeste
+14878,TEN,Privada com fins lucrativos,35,SP,Sudeste
+14882,FACHORIZONTE,Privada com fins lucrativos,53,DF,Centro-Oeste
+14890,FPG,Privada com fins lucrativos,35,SP,Sudeste
+14892,FCSB,Privada com fins lucrativos,35,SP,Sudeste
+14901,FIC,Privada com fins lucrativos,15,PA,Norte
+14927,FASG,Privada com fins lucrativos,32,ES,Sudeste
+14947,FACIT,Privada com fins lucrativos,17,TO,Norte
+14951,FEITEP,Privada com fins lucrativos,41,PR,Sul
+14961,FATESA,Privada sem fins lucrativos,43,RS,Sul
+14969,FATESA,Privada com fins lucrativos,35,SP,Sudeste
+14975,FANEB,Privada com fins lucrativos,29,BA,Nordeste
+14996,FGN,Privada com fins lucrativos,29,BA,Nordeste
+15001,UNILA,Pública Federal,41,PR,Sul
+15015,UENP,Pública Estadual,41,PR,Sul
+15059,UFOPA,Pública Federal,15,PA,Norte
+15079,FAMAP,Privada com fins lucrativos,15,PA,Norte
+15121,UFFS,Pública Federal,42,SC,Sul
+15133,FAJAR,Privada com fins lucrativos,28,SE,Nordeste
+15236,AMTEC,Privada com fins lucrativos,43,RS,Sul
+15351,IDEAU,Privada com fins lucrativos,43,RS,Sul
+15382,AJES,Privada com fins lucrativos,51,MT,Centro-Oeste
+15383,FADESA,Privada com fins lucrativos,15,PA,Norte
+15410,FACHUSST,Pública Municipal,26,PE,Nordeste
+15428,FAHS,Privada sem fins lucrativos,24,RN,Nordeste
+15433,SEDAC,Privada sem fins lucrativos,51,MT,Centro-Oeste
+15445,FAIND/CTBA,Privada com fins lucrativos,41,PR,Sul
+15450,FUNIP,Privada sem fins lucrativos,31,MG,Sudeste
+15451,FADIPA,Privada sem fins lucrativos,31,MG,Sudeste
+15497,UNILAB,Pública Federal,23,CE,Nordeste
+15504,FAI,Privada com fins lucrativos,29,BA,Nordeste
+15508,CEUPI,Privada com fins lucrativos,22,PI,Nordeste
+15518,FAM,Privada com fins lucrativos,52,GO,Centro-Oeste
+15521,CATÓLICA-SJC,Privada sem fins lucrativos,35,SP,Sudeste
+15526,FGNF,Privada com fins lucrativos,23,CE,Nordeste
+15562,FBC,Privada sem fins lucrativos,23,CE,Nordeste
+15576,FATEC-MC,Pública Estadual,35,SP,Sudeste
+15581,FATECSJCAMPOS,Pública Estadual,35,SP,Sudeste
+15585,FATEC-SA,Pública Estadual,35,SP,Sudeste
+15639,Fatec Itaqua,Pública Estadual,35,SP,Sudeste
+15669,FACEG,Pública Municipal,26,PE,Nordeste
+15682,Fatec Piracicaba,Pública Estadual,35,SP,Sudeste
+15687,FATEC PI,Pública Estadual,35,SP,Sudeste
+15688,FATEC ZONASUL,Pública Estadual,35,SP,Sudeste
+15689,FATEC,Pública Estadual,35,SP,Sudeste
+15693,Fatec - Itapetininga,Pública Estadual,35,SP,Sudeste
+15695,Fatec Itu,Pública Estadual,35,SP,Sudeste
+15696,FATEC SERTĂOZINHO,Pública Estadual,35,SP,Sudeste
+15697,FATEC Araçatuba,Pública Estadual,35,SP,Sudeste
+15704,FATEC-CB,Pública Estadual,35,SP,Sudeste
+15708,FATEC Franca,Pública Estadual,35,SP,Sudeste
+15709,Fatec Osasco,Pública Estadual,35,SP,Sudeste
+15714,FATECMM,Pública Estadual,35,SP,Sudeste
+15715,FATEC LINS,Pública Estadual,35,SP,Sudeste
+15745,FATEC SCS,Pública Estadual,35,SP,Sudeste
+15746,FATECIPI,Pública Estadual,35,SP,Sudeste
+15752,FATEC GR,Pública Estadual,35,SP,Sudeste
+15753,FATEC JB,Pública Estadual,35,SP,Sudeste
+15757,Fatec Barueri,Pública Estadual,35,SP,Sudeste
+15769,Fatec Jales,Pública Estadual,35,SP,Sudeste
+15777,FSP,Privada com fins lucrativos,35,SP,Sudeste
+15784,Fatec Marilia,Pública Estadual,35,SP,Sudeste
+15793,Fatec SS,Pública Estadual,35,SP,Sudeste
+15803,FATEC TATUÍ,Pública Estadual,35,SP,Sudeste
+15839,DVJP,Privada com fins lucrativos,25,PB,Nordeste
+15859,FACAP,Privada sem fins lucrativos,35,SP,Sudeste
+15873,UNEITAQUÁ,Privada com fins lucrativos,35,SP,Sudeste
+15894,SOBRESP,Privada com fins lucrativos,43,RS,Sul
+16037,ISCP,Pública Estadual,53,DF,Centro-Oeste
+16194,FGT,Privada com fins lucrativos,35,SP,Sudeste
+16395,FATEC,Pública Estadual,35,SP,Sudeste
+16410,FATEC Catanduva,Pública Estadual,35,SP,Sudeste
+16502,FPF,Privada sem fins lucrativos,35,SP,Sudeste
+16525,FDC,Privada com fins lucrativos,26,PE,Nordeste
+16543,FAMEESP,Privada com fins lucrativos,35,SP,Sudeste
+16559,FASC,Privada com fins lucrativos,23,CE,Nordeste
+16602,FACEEL,Privada com fins lucrativos,15,PA,Norte
+16759,FABIC,Privada sem fins lucrativos,17,TO,Norte
+16781,riso,Privada sem fins lucrativos,17,TO,Norte
+16782,FAMAQUI,Privada com fins lucrativos,43,RS,Sul
+16864,FCI,Privada sem fins lucrativos,35,SP,Sudeste
+16879,FMO,Privada com fins lucrativos,26,PE,Nordeste
+16898,FAM,Privada com fins lucrativos,15,PA,Norte
+16901,EDUCATIE,Privada com fins lucrativos,35,SP,Sudeste
+16934,Melies,Privada com fins lucrativos,35,SP,Sudeste
+16943,FMN PARNAMIRIM,Privada com fins lucrativos,24,RN,Nordeste
+17014,CSEJCDA,Privada sem fins lucrativos,35,SP,Sudeste
+17025,FACESP,Privada com fins lucrativos,15,PA,Norte
+17115,FUNEPI,Privada com fins lucrativos,25,PB,Nordeste
+17118,AJES,Privada com fins lucrativos,51,MT,Centro-Oeste
+17138,Católica em Joinvile,Privada sem fins lucrativos,42,SC,Sul
+17165,UNILAGOS,Privada sem fins lucrativos,41,PR,Sul
+17200,FBT,Privada com fins lucrativos,43,RS,Sul
+17224,CESMAC Sertăo,Privada sem fins lucrativos,27,AL,Nordeste
+17226,CESMAC Agreste,Privada sem fins lucrativos,27,AL,Nordeste
+17269,ISITEC,Privada sem fins lucrativos,35,SP,Sudeste
+17277,Senac Criciúma,Privada sem fins lucrativos,42,SC,Sul
+17284,FMN SĂO LUÍS,Privada com fins lucrativos,21,MA,Nordeste
+17288,FATEBE,Privada sem fins lucrativos,41,PR,Sul
+17289,FACTUAL,Privada com fins lucrativos,31,MG,Sudeste
+17322,FAIARA,Privada sem fins lucrativos,17,TO,Norte
+17348,FATEC,Privada sem fins lucrativos,31,MG,Sudeste
+17352,FEMAF,Privada com fins lucrativos,21,MA,Nordeste
+17355,FECS,Privada sem fins lucrativos,35,SP,Sudeste
+17394,FAL,Privada com fins lucrativos,23,CE,Nordeste
+17400,FAMED,Privada com fins lucrativos,43,RS,Sul
+17401,FATECNA,Privada sem fins lucrativos,53,DF,Centro-Oeste
+17403,FAS,Privada com fins lucrativos,23,CE,Nordeste
+17405,FAM,Privada com fins lucrativos,22,PI,Nordeste
+17433,FASAVIC,Privada com fins lucrativos,29,BA,Nordeste
+17460,FAPRO,Privada com fins lucrativos,41,PR,Sul
+17490,FAJOP,Privada com fins lucrativos,52,GO,Centro-Oeste
+17498,FASA,Privada com fins lucrativos,29,BA,Nordeste
+17499,FAVILI,Privada com fins lucrativos,23,CE,Nordeste
+17542,DOCTUM,Privada sem fins lucrativos,32,ES,Sudeste
+17563,FCOESP,Privada com fins lucrativos,25,PB,Nordeste
+17587,IFPA,Privada sem fins lucrativos,35,SP,Sudeste
+17590,ISAE,Privada sem fins lucrativos,41,PR,Sul
+17593,FDB,Privada com fins lucrativos,35,SP,Sudeste
+17598,WLASAN,Privada sem fins lucrativos,35,SP,Sudeste
+17622,FJN FORTALEZA,Privada com fins lucrativos,23,CE,Nordeste
+17628,FMB,Privada com fins lucrativos,23,CE,Nordeste
+17662,FG,Privada com fins lucrativos,35,SP,Sudeste
+17670,UniQ,Privada com fins lucrativos,23,CE,Nordeste
+17738,FACESGRANRIO,Privada sem fins lucrativos,33,RJ,Sudeste
+17816,FMN Feira de Santana,Privada com fins lucrativos,29,BA,Nordeste
+17828,UCL,Privada sem fins lucrativos,32,ES,Sudeste
+17854,FECAF,Privada com fins lucrativos,35,SP,Sudeste
+17874,FAEST,Privada com fins lucrativos,51,MT,Centro-Oeste
+17875,FACBEL,Privada sem fins lucrativos,15,PA,Norte
+17942,FATEC-TT,Pública Estadual,35,SP,Sudeste
+17952,FATEC Jacareí,Pública Estadual,35,SP,Sudeste
+17953,FATEC Pompeia,Pública Estadual,35,SP,Sudeste
+17977,FATEC ITAQUERA,Pública Estadual,35,SP,Sudeste
+18019,FEDUC,Privada sem fins lucrativos,35,SP,Sudeste
+18023,FMN PETROLINA,Privada com fins lucrativos,26,PE,Nordeste
+18034,CESURG,Privada com fins lucrativos,43,RS,Sul
+18048,FVT,Privada com fins lucrativos,33,RJ,Sudeste
+18049,FATEC TAUBATÉ,Pública Estadual,35,SP,Sudeste
+18065,CFQ,Privada com fins lucrativos,23,CE,Nordeste
+18067,CFTQ,Privada com fins lucrativos,23,CE,Nordeste
+18075,FMN JABOATĂO,Privada com fins lucrativos,26,PE,Nordeste
+18099,FATEC DIADEMA,Pública Estadual,35,SP,Sudeste
+18114,FFMT,Privada com fins lucrativos,51,MT,Centro-Oeste
+18133,FACUNICAMPS,Privada com fins lucrativos,52,GO,Centro-Oeste
+18165,UNIVESP,Pública Estadual,35,SP,Sudeste
+18201,SENAC Palhoça,Privada sem fins lucrativos,42,SC,Sul
+18253,FAVALE,Privada com fins lucrativos,21,MA,Nordeste
+18288,FLAM,Privada sem fins lucrativos,35,SP,Sudeste
+18408,FECAF,Privada com fins lucrativos,35,SP,Sudeste
+18440,UNIFESSPA,Pública Federal,15,PA,Norte
+18454,Unaset,Privada com fins lucrativos,31,MG,Sudeste
+18474,FPG,Privada com fins lucrativos,52,GO,Centro-Oeste
+18478,FAPP,Privada com fins lucrativos,23,CE,Nordeste
+18492,UNESPAR,Pública Estadual,41,PR,Sul
+18506,UFOB,Pública Federal,29,BA,Nordeste
+18636,FARESI,Privada com fins lucrativos,29,BA,Nordeste
+18759,UFCA,Pública Federal,23,CE,Nordeste
+18812,UFESBA,Pública Federal,29,BA,Nordeste
+18817,FATEC-SR,Pública Estadual,35,SP,Sudeste
+19297,FAPIDE,Privada com fins lucrativos,28,SE,Nordeste
+19337,FADESNE,Privada com fins lucrativos,23,CE,Nordeste
+19500,FATEC Săo Carlo,Pública Estadual,35,SP,Sudeste
+19501,FATEC SEBRAE,Pública Estadual,35,SP,Sudeste
+19512,IMEPAC,Privada com fins lucrativos,31,MG,Sudeste
+19578,FATEC COTIA,Pública Estadual,35,SP,Sudeste
+19588,FAETERJ CAXIAS,Pública Estadual,33,RJ,Sudeste
+19739,FATEC CAMPINAS,Pública Estadual,35,SP,Sudeste
+19862,FATEC Bebedouro,Pública Estadual,35,SP,Sudeste
+19863,FATEC Assis,Pública Estadual,35,SP,Sudeste
+19864,FATEC Itapira,Pública Estadual,35,SP,Sudeste
+20478,FATEC-SPB,Pública Estadual,35,SP,Sudeste

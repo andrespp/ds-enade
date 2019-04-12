@@ -1,6 +1,6 @@
 *~
 *__pycache__/
 data/
-dataset/
-*.ipynb_checkpoints/
 sandbox/
+*.ipynb_checkpoints/
+*.~lock.*
