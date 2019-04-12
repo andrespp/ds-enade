@@ -55,7 +55,8 @@ def extract(data_src, gzip=False, decimal='.'):
     df.columns = map(str.upper, df.columns)
     
     # Standardized all columns in every years 
-    if df['NU_ANO'][0] == 2004 or 2005 or 2006 or 2007 or 2008 or 2009:
+    if (df['NU_ANO'][0] == 2004) or (df['NU_ANO'][0] == 2005) or (df['NU_ANO'][0] == 2006) or \
+    (df['NU_ANO'][0] == 2007) or (df['NU_ANO'][0] == 2008) or (df['NU_ANO'][0] == 2009):
         # Rename columns
         df.rename(columns = {'IN_GRAD':'TP_INSCRICAO',
                              'CO_UF_HABIL':'CO_UF_CURSO', 
@@ -127,7 +128,9 @@ def transform(data, dim_groups, dim_areas, dim_ies):
         lambda x: dim_groups[dim_groups['CO_GRUPO'] == x].iloc[0, 1])
     data['NM_MODALIDADE'] = data['CO_MODALIDADE'].apply(get_nm_modalidade)
     data['NM_UF_CURSO'] = data['CO_UF_CURSO'].apply(get_nm_uf_curso)
-    data['NM_SEXO'] = data['TP_SEXO'].apply(get_nm_sexo)
+    data['NM_SEXO'] = data.apply(lambda x: 
+                                 get_nm_sexo(x['TP_SEXO'],
+                                             x['NU_ANO']), axis=1)
     data['NM_INSCRICAO'] = data.apply(lambda x:
                                       get_nm_inscricao(x['TP_INSCRICAO'],
                                                        x['NU_ANO']), axis=1)
@@ -253,14 +256,21 @@ def get_nm_uf_curso(co_uf_curso):
     }
     return switcher.get(co_uf_curso, 'Outro')
 
-def get_nm_sexo(tp_sexo):
+def get_nm_sexo(tp_sexo, ds_year):
     """Returns "Tipo de sexo do participante" description
     """
-    switcher = {
-        'M': 'Masculino',
-        'F': 'Feminino',
-        'N': 'Outro'
-    }
+    if (ds_year == 2004) or (ds_year == 2005) or (ds_year == 2006) or \
+    (ds_year == 2007) or (ds_year == 2008) or (ds_year == 2009):
+        switcher = {
+            1: 'Masculino',
+            2: 'Feminino'
+        }
+    else:
+        switcher = {
+            'M': 'Masculino',
+            'F': 'Feminino',
+            'N': 'Outro'
+        }
     return switcher.get(tp_sexo, 'Outro')
 
 def get_nm_inscricao(tp_inscricao, ds_year):
